@@ -1,0 +1,9 @@
+@import './base.css';
+
+.theme-color {
+    color: #214285 !important;
+}
+
+.theme-background-color {
+    background-color: #214285 !important;
+}

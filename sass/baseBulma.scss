@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+$theme-color: #214285;
+
+$navbar-height: 5rem;
+
+$primary: $theme-color;
+$link: $theme-color;
+
+$navbar-item-active-color: $theme-color;
+
+@import "../node_modules/bulma/bulma.sass";
