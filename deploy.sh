@@ -12,8 +12,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 將 dist資料夾中的內容推送至遠端 hexWeek6Demo的 gh-pages分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f)
-git push -f git@github.com:PiLab-HKBU/pilab-hkbu.github.io.git master:gh-pages
+# 將 dist資料夾中的內容推送至遠端gh-pages分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f)
+git push -f git@github.com:PiLab-HKBU/pilab-hkbu.github.io.git main:gh-pages
 cd -
 
 # 執行指令，在終端機輸入 deploy.sh

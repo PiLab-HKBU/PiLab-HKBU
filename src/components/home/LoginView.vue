@@ -39,7 +39,7 @@ export default {
   methods: {
     login() {
       console.log("123")
-      if (this.passwordInput === "compinternal") {
+      if (this.passwordInput === store.password) {
         this.store.isNotAuthenticated = true;
         this.$router.push({ name: 'home', params: { } })
       } else {
