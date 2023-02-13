@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   base: process.env.NODE_ENV === 'production'
-      ? '/HKBU-COMP-HCI-RecSys-Web/'
+      ? '/PiLab-HKBU/'
       : '/'
 })
