@@ -122,7 +122,7 @@ export const projectsData = reactive({
         },
         {
             "id": 7,
-            "photo": "/src/assets/img/projects/workshop.jpg",
+            "photo": "./img/projects/Wofoo Health Workshop.jpg",
             "shortTitle": "Wofoo Health",
             "title": "Wofoo Health: Development of AI and Real-time Interactive App-based Platform for Tracking of Longitudinal Happiness and Healthy Aging Outcomes of the Aging Population",
             "subtitle": "",
