@@ -13,7 +13,7 @@ export const membersData = reactive({
                     position: "Associate Head (Research) and Associate Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
                     contact: "lichen@comp.hkbu.edu.hk",
                     website: "https://www.comp.hkbu.edu.hk/~lichen",
-                    location: "Hong Kong SAR",
+                    location: "Hong Kong SAR, China",
                 },
                 {
                     photo: "https://www.comp.hkbu.edu.hk/v1/?pic_org=1051",
@@ -23,7 +23,7 @@ export const membersData = reactive({
                     position: "Research Assistant Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
                     contact: "yuchengjin@comp.hkbu.edu.hk",
                     website: "https://www.comp.hkbu.edu.hk/~yuchengjin/",
-                    location: "Hong Kong SAR",
+                    location: "Hong Kong SAR, China",
                 },
                 {
                     photo: "https://wanlingcai.github.io/images/wanlingcai_dublin.jpg",
@@ -48,7 +48,7 @@ export const membersData = reactive({
                     position: "MPhil Student<br>Department of Computer Science<br>Hong Kong Baptist University",
                     contact: "csxlzhao@comp.hkbu.edu.hk",
                     website: "https://github.com/ZhaoXianglin",
-                    location: "Hong Kong SAR",
+                    location: "Hong Kong SAR, China",
                 },
                 {
                     photo: "https://www.comp.hkbu.edu.hk/~lichen/images/Yizhe_Zhang.jpg",
@@ -58,7 +58,7 @@ export const membersData = reactive({
                     position: "Research Assistant<br>Department of Computer Science<br>Hong Kong Baptist University",
                     contact: "csyzzhang@comp.hkbu.edu.hk",
                     website: "https://elecoxy.com",
-                    location: "Hong Kong SAR",
+                    location: "Hong Kong SAR, China",
                 }
             ]
         }

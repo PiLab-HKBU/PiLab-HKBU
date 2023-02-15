@@ -17,15 +17,15 @@
       <div class="content" style="overflow-wrap: break-word;">
         <p class="p-0 mb-0" style="font-size: 14px; line-height: 20px; height: 102px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 5;" v-html="person.position"></p>
         <template v-if="person.location !== ''">
-          <span><i class="fas fa-location-arrow"></i> <span style="font-size: 14px; color: black"> {{ person.location }}</span></span>
+          <span><ion-icon name="location-outline"></ion-icon> <span style="font-size: 14px; color: black"> {{ person.location }}</span></span>
           <br>
         </template>
         <template v-if="person.contact !== ''">
-          <span><i class="fa-solid fa-envelope"></i> <a :href="'mailto:' + person.contact" style="font-size: 14px; color: black">Contact Me</a></span>
+          <span><ion-icon name="mail-outline"></ion-icon> <a :href="'mailto:' + person.contact" style="font-size: 14px; color: black">Contact Me</a></span>
           <br>
         </template>
         <template v-if="person.website !== ''">
-          <span><i class="fas fa-globe-asia"></i> <a :href="person.website" target="_blank" style="font-size: 14px; color: black">Personal Website</a></span>
+          <span><ion-icon name="browsers-outline"></ion-icon> <a :href="person.website" target="_blank" style="font-size: 14px; color: black">Personal Website</a></span>
         </template>
       </div>
     </div>
@@ -40,6 +40,18 @@ export default {
 </script>
 
 <style scoped>
+ion-icon {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+span {
+  vertical-align: middle;
+}
+
+a {
+  vertical-align: middle;
+}
 
 .card:hover .memberPicture {
   -webkit-transform: scale(1.1);

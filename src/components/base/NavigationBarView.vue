@@ -22,7 +22,7 @@
           </router-link>
 
           <router-link :to="{ name: 'teamMember', params: {}}" :class="['navbar-item', currentIndex === 'teamMember' ? 'is-active' : '']">
-            Team Member
+            Team Members
           </router-link>
 
           <div class="navbar-item has-dropdown is-hoverable">
