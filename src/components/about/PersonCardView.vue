@@ -5,7 +5,7 @@
         <img class="memberPicture" :src="person.photo" alt="Placeholder image" style="object-fit: cover">
       </figure>
     </div>
-    <div class="card-content">
+    <div class="card-content p-4">
       <div class="media mb-2">
         <div class="media-content">
           <p class="title is-4">{{ person.displayName }}</p>
@@ -15,17 +15,17 @@
       </div>
 
       <div class="content" style="overflow-wrap: break-word;">
-        <p class="p-0" style="font-size: 14px; line-height: 16px; height: 48px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 3;">{{ person.position }}</p>
+        <p class="p-0 mb-0" style="font-size: 14px; line-height: 20px; height: 102px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 5;" v-html="person.position"></p>
         <template v-if="person.location !== ''">
-          <span><i class="fas fa-location-arrow"></i> <span style="font-size: 14px"> {{ person.location }}</span></span>
+          <span><i class="fas fa-location-arrow"></i> <span style="font-size: 14px; color: black"> {{ person.location }}</span></span>
           <br>
         </template>
         <template v-if="person.contact !== ''">
-          <span><i class="fa-solid fa-envelope"></i> <a :href="'mailto:' + person.contact" style="font-size: 14px">Contact Me</a></span>
+          <span><i class="fa-solid fa-envelope"></i> <a :href="'mailto:' + person.contact" style="font-size: 14px; color: black">Contact Me</a></span>
           <br>
         </template>
         <template v-if="person.website !== ''">
-          <span><i class="fas fa-globe-asia"></i> <a :href="person.website" target="_blank" style="font-size: 14px">Personal Website</a></span>
+          <span><i class="fas fa-globe-asia"></i> <a :href="person.website" target="_blank" style="font-size: 14px; color: black">Personal Website</a></span>
         </template>
       </div>
     </div>
