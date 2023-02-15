@@ -6,9 +6,7 @@
           <img class="pCover" :src="project.photo" alt="Project Photo">
         </div>
         <div class="px-5 mt-2">
-          <p class="theme-color pTitle">
-            {{ project.title }}
-          </p>
+          <p class="theme-color pTitle" v-html="project.title"></p>
           <p class="my-2 pDescription">
             {{ project.description }}
           </p>

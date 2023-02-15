@@ -9,9 +9,7 @@
         <div class="columns pCanvas">
           <div class="column">
             <router-link :to="{ name: 'project', query: {pid: project.id}}">
-              <p class="title is-4 theme-color mb-2 pTitle">
-                {{ project.title }}
-              </p>
+              <p class="title is-4 theme-color mb-2 pTitle" v-html="project.title"></p>
             </router-link>
             <p class="subtitle is-6">
               {{ project.author }}

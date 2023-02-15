@@ -15,9 +15,7 @@
   </section>
   <section class="section pt-2">
     <div class="container is-max-widescreen" v-if="project">
-      <div class="title">
-        {{ project.title }}
-      </div>
+      <div class="title" v-html="project.title"></div>
       <div class="columns">
         <div class="column is-8">
           <div class="content">

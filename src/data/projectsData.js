@@ -96,7 +96,7 @@ export const projectsData = reactive({
             "id": 6,
             "photo": "./img/projects/Fact-Checking Chatbot.png",
             "shortTitle": "Fact-Checking Chatbot",
-            "title": "Fact-Checking Chatbot: Comparing Button-Based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information",
+            "title": "Fact-Checking Chatbot: Comparing Button-Based Chatbots with Webpages for Presenting<br>Fact-Checking Results: A Case Study of Health Information",
             "subtitle": "",
             "author": "Mr. Xianglin Zhao, Dr. Li Chen, Dr. Yucheng Jin, and Dr. Xinzhi Zhang (School of Communication, HKBU) ",
             "description": "This fact-checking chatbot is designed to communicate health-related fact-checking results to users in a conversation. ",
