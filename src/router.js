@@ -34,11 +34,11 @@ const routes = [
         ],
 
     },
-    {
-        path: '/contact',
-        name: 'contact',
-        component: () => import('@/components/contact/ContactView.vue'),
-    },
+    // {
+    //     path: '/contact',
+    //     name: 'contact',
+    //     component: () => import('@/components/contact/ContactView.vue'),
+    // },
 ]
 
 const router = createRouter({

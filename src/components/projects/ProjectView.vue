@@ -19,20 +19,25 @@
       <div class="columns">
         <div class="column is-8">
           <div class="content">
-            <div class="subtitle">
-              {{ project.author }}
-            </div>
+            <div class="subtitle mb-0" v-html="project.author"></div>
+            <div class="subtitle" v-html="project.collaborator"></div>
             <div v-if="project.video">
               <iframe class="youtube-embed-frame" :src="project.video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <p>
-              {{ project.description }}
-            </p>
+            <p v-html="project.description"></p>
             <ul v-if="project.features.length !== 0">
               <li v-for="feature in project.features">
                 {{ feature }}
               </li>
             </ul>
+            <template v-if="project.majorFundings.length !== 0">
+              <p style="font-size: 18px; font-weight: bold">Major Fundings:</p>
+              <ul>
+                <li v-for="feature in project.majorFundings">
+                  {{ feature }}
+                </li>
+              </ul>
+            </template>
             <blockquote v-if="project.reference.length !== 0">
               <div class="subtitle">
                 Reference

@@ -2,11 +2,11 @@
   <section class="hero is-link">
     <div class="hero-body theme-background-color">
       <div class="container  is-max-widescreen">
-        <h1 class="title is-2">Intelligent Technology for well-being</h1>
-        <h2 class="subtitle is-3">Mental Health, Artificial Intelligent, and Recommender System</h2>
+        <h1 class="title is-2">Intelligent Technology for Well-Being</h1>
+        <h2 class="subtitle is-3">Mental Health, Artificial Intelligent, and Recommender Systems</h2>
         <div class="content is-large">
           <p>
-            Our team is committed to the research and design of human-computer interaction related to mental health and human well-being. Hopefully our research can drive the next generation of mental health revolution.
+            Our team is committed to conducting interdisplinary research on development of  innovative human-centered  AI systems for promoting mental health and human well-being.  The team members come from different fields, including computer science, social science, creative art, and psychological and cognitive science.
           </p>
         </div>
 <!--        <figure class="image">-->
@@ -19,14 +19,9 @@
     <div class="hero-body">
       <div class="container is-max-widescreen">
         <div class="columns">
-          <div class="column is-half">
+          <div class="column is-full">
             <p>
-              Our research activities include changes and innovations in mental health and human well-being by exploring human-computer interaction. The group is a subgroup within the Human-Computer Interaction Group of the Department of Computer Science, Hong Kong Baptist University. It includes postdoctoral researchers, doctoral students and software engineering experts.
-            </p>
-          </div>
-          <div class="column is-half">
-            <p>
-              In addition to our research activities, we also offer the application of a range of related technologies. Centred on users, we help social groups and university organizations design and develop related human-computer interaction results to facilitate their research or commercial activities. Our relevant expertise covers the following areas:
+              Our research activities mainly focus oninnovation of AI-powered solutions for promoting mental health and human well-being. We have aimed to deliver empirically demonstrated applications to serve various types of users, including general population and specific groups, in collaboration with different mental health service organizations.
             </p>
           </div>
         </div>
@@ -35,13 +30,13 @@
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Forensic-medicine-rafiki.png" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Co-design Workshop for HCI</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">User-centered Interaction Design</h5>
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Office-management-rafiki.png" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Human-Computer Interaction Evaluation</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">User Interface Evaluation</h5>
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
@@ -53,7 +48,7 @@
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Business-Plan-rafiki.png" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Recommender System</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Recommender Systems</h5>
           </div>
         </div>
       </div>

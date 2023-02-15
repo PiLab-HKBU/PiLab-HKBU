@@ -11,12 +11,9 @@
             <router-link :to="{ name: 'project', query: {pid: project.id}}">
               <p class="title is-4 theme-color mb-2 pTitle" v-html="project.title"></p>
             </router-link>
-            <p class="subtitle is-6">
-              {{ project.author }}
-            </p>
-            <p>
-              {{ project.description }}
-            </p>
+            <p class="subtitle is-6 mb-0" v-html="project.author"></p>
+            <p class="subtitle is-6" v-html="project.collaborator"></p>
+            <p v-html="project.description"></p>
           </div>
           <div class="column">
             <div class="pCoverCanvas">

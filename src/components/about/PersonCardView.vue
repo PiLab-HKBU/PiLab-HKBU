@@ -1,8 +1,8 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4by3">
-        <img :src="person.photo" alt="Placeholder image" style="object-fit: cover">
+      <figure class="image is-4by3" style="overflow: hidden">
+        <img class="memberPicture" :src="person.photo" alt="Placeholder image" style="object-fit: cover">
       </figure>
     </div>
     <div class="card-content">
@@ -15,7 +15,7 @@
       </div>
 
       <div class="content" style="overflow-wrap: break-word;">
-        <p class="p-0" style="font-size: 14px; line-height: 16px; height: 32px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 2;">{{ person.position }}</p>
+        <p class="p-0" style="font-size: 14px; line-height: 16px; height: 48px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 3;">{{ person.position }}</p>
         <template v-if="person.location !== ''">
           <span><i class="fas fa-location-arrow"></i> <span style="font-size: 14px"> {{ person.location }}</span></span>
           <br>
@@ -40,5 +40,13 @@ export default {
 </script>
 
 <style scoped>
+
+.card:hover .memberPicture {
+  -webkit-transform: scale(1.1);
+}
+
+.memberPicture {
+  transition: transform 0.2s linear;
+}
 
 </style>

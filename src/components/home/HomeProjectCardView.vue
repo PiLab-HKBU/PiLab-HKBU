@@ -7,9 +7,9 @@
         </div>
         <div class="px-5 mt-2">
           <p class="theme-color pTitle" v-html="project.title"></p>
-          <p class="my-2 pDescription">
+          <div class="my-2 pDescription">
             {{ project.description }}
-          </p>
+          </div>
         </div>
       </div>
     </router-link>
@@ -50,23 +50,25 @@ export default {
 }
 
 .pTitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 25px;
-  height: 50px;
-  overflow: hidden;
+  height: 75px;
+
   display: -webkit-box;
-  webkit-box-orient: vertical;
-  webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .pDescription {
   font-size: 16px;
   line-height: 25px;
   height: 75px;
-  overflow: hidden;
+
   display: -webkit-box;
-  webkit-box-orient: vertical;
-  webkit-line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 </style>

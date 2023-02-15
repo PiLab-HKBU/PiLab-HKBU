@@ -47,9 +47,9 @@
 <!--            Work With Us-->
 <!--          </a>-->
 
-          <router-link :to="{ name: 'contact', params: {}}" :class="['navbar-item', currentIndex === 'contact' ? 'is-active' : '']">
-            Contact
-          </router-link>
+<!--          <router-link :to="{ name: 'contact', params: {}}" :class="['navbar-item', currentIndex === 'contact' ? 'is-active' : '']">-->
+<!--            Contact-->
+<!--          </router-link>-->
         </div>
       </div>
     </nav>
