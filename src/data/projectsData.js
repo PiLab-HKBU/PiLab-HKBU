@@ -11,6 +11,7 @@ export const projectsData = reactive({
             "author": "Mr. ZHAO, Xianglin and Dr. CHEN, Li",
             "collaborator": "",
             "description": "SunnyBot is a web-based chatbot designed to track users’ daily mood, assess their level of loneliness, and recommend music according to their mood.",
+            "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "Mood Diary: the system allows users to indicate their daily feelings and visualize their mood changes over time.",
@@ -31,6 +32,7 @@ export const projectsData = reactive({
             "author": "Mr. ZHANG, Yizhe and Dr. CHEN, Lin",
             "collaborator": "",
             "description": "Pistis Health is a centralized information recommendation platform. It can  recommend psychological suggestions, articles, and service information to users. ",
+            "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "Centralised and Integrated Content Database: the system can regularly collect and analyse news articles about mental health from different sources, so that it can always provide the newest, up-to-date information.",
@@ -51,6 +53,7 @@ export const projectsData = reactive({
             "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Dr. CAI, Wanling, and Mr. ZHAO, Xianglin",
             "collaborator": "<strong>Collaborator</strong>: Counselling and Development Centre, HKBU",
             "description": "PercyBot is a chatbot designed for young adults who feel lonely.",
+            "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "Self-Assessment: PercyBot allows users to assess their feelings of loneliness and get empathetical responses via conversation with the chatbot.",
@@ -70,6 +73,7 @@ export const projectsData = reactive({
             "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
             "collaborator": "",
             "description": "This music chatbot can guide users to become self-aware and express their thoughts when they listen to music.",
+            "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "Emotion-based Music Recommendation: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
@@ -90,6 +94,7 @@ export const projectsData = reactive({
             "author": "Dr. JIN, Yucheng, Dr. CAI, Wanling, Dr. CHEN, Li, Ms. DAI, Yuwan , and Dr. JIANG, Tonglin",
             "collaborator": "",
             "description": "We used mixed methods to study mental health disclosure and support on NetEase Cloud Music, a large online social music community in China. In particular, we analysed rich music comments (N = 163) and the associated replies (N = 2,732) related to their psychological distress. Furthermore, we conducted an interview study with 13 young users to understand their perceptions of and motives for engaging in disclosure and support.",
+            "descriptionRest": "",
             "majorFundings": [
                 "NCM uses music to connect young people who share similar music tastes, and this becomes an emotional outlet that allows young people to self-disclose and seek social support. ",
                 "The main types of comments involved experience sharing, and these comments often invoked peer support in the form of encouragement, caring, or self-disclosure.",
@@ -110,6 +115,7 @@ export const projectsData = reactive({
             "author": "Mr. ZHAO, Xianglin, Dr. CHEN, Li, Dr. JIN, Yucheng, and Dr. ZHANG, Xinzhi",
             "collaborator": "",
             "description": "This fact-checking chatbot is designed to communicate health-related fact-checking results to users in a conversation. ",
+            "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "Button-based Interaction: This chatbot allows users to get fact-checking results about health-related information by tapping a few buttons in a conversation. In comparison with traditional fact-checking webpages, the chatbot can increase users’ perceived ease of use, which in turn increases the correction effectiveness. ",
@@ -128,12 +134,11 @@ export const projectsData = reactive({
             "subtitle": "",
             "author": "Prof. Daniel W.L. Lai, Dr. CHEN, Li, Dr. JIN, Yucheng, Mr. ZHANG, Yizhe, Dr. Helen Chan, and Dr. CAI, Wanling",
             "collaborator": "",
-            "description": "This project is to integrate the use of AI and data analytics in social and health sciences research to assess and track happiness and health outcomes of the ageing population in Hong Kong. <br><br>The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong.",
+            "description": "This project is to integrate the use of AI and data analytics in social and health sciences research to assess and track happiness and health outcomes of the ageing population in Hong Kong.",
+            "descriptionRest": "The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong.",
             "majorFundings": [],
-            "features": [
-            ],
-            "reference": [
-            ],
+            "features": [],
+            "reference": [],
             "video": "",
         }
     ]

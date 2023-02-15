@@ -25,6 +25,7 @@
               <iframe class="youtube-embed-frame" :src="project.video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <p v-html="project.description"></p>
+            <p v-if="project.descriptionRest !== ''" v-html="project.descriptionRest"></p>
             <ul v-if="project.features.length !== 0">
               <li v-for="feature in project.features">
                 {{ feature }}

@@ -21,7 +21,7 @@
         <div class="columns">
           <div class="column is-full">
             <p>
-              Our research activities mainly focus oninnovation of AI-powered solutions for promoting mental health and human well-being. We have aimed to deliver empirically demonstrated applications to serve various types of users, including general population and specific groups, in collaboration with different mental health service organizations.
+              Our research activities mainly focus on innovation of AI-powered solutions for promoting mental health and human well-being. We have aimed to deliver empirically demonstrated applications to serve various types of users, including general population and specific groups, in collaboration with different mental health service organizations.
             </p>
           </div>
         </div>
