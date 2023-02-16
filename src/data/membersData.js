@@ -41,7 +41,7 @@ export const membersData = reactive({
             title: "Students",
             members: [
                 {
-                    photo: "./img/members/Zhaoxianglin.jpg",
+                    photo: "/img/members/Zhaoxianglin.jpg",
                     displayName: "Mr. ZHAO, Xianglin",
                     cnName: "趙祥麟先生",
                     title: "",

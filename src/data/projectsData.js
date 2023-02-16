@@ -4,7 +4,7 @@ export const projectsData = reactive({
     list: [
         {
             "id": 1,
-            "photo": "./img/projects/SunnyBot.png",
+            "photo": "/img/projects/SunnyBot.png",
             "shortTitle": "SunnyBot",
             "title": "SunnyBot: Design and Implementation of a Music Recommendation Chatbot for Lonely People",
             "subtitle": "",
@@ -25,11 +25,11 @@ export const projectsData = reactive({
         },
         {
             "id": 2,
-            "photo": "./img/projects/Pistis Health.png",
+            "photo": "/img/projects/Pistis Health.png",
             "shortTitle": "Pistis Health",
             "title": "Pistis Health: A Centralized Platform for Collecting and Personalizing Information about Mental Health Services to the Public",
             "subtitle": "",
-            "author": "Mr. ZHANG, Yizhe and Dr. CHEN, Lin",
+            "author": "Mr. ZHANG, Yizhe and Dr. CHEN, Li",
             "collaborator": "",
             "description": "Pistis Health is a centralized information recommendation platform. It can  recommend psychological suggestions, articles, and service information to users. ",
             "descriptionRest": "",
@@ -46,7 +46,7 @@ export const projectsData = reactive({
         },
         {
             "id": 3,
-            "photo": "./img/projects/PercyBot.png",
+            "photo": "/img/projects/PercyBot.png",
             "shortTitle": "PercyBot",
             "title": "PercyBot: Effects of Psychometric Assessment Design on User Response Quality for Open-ended Questions in Mental Health Survey Chatbots",
             "subtitle": "",
@@ -66,7 +66,7 @@ export const projectsData = reactive({
         },
         {
             "id": 4,
-            "photo": "./img/projects/MusicBot.png",
+            "photo": "/img/projects/MusicBot.png",
             "shortTitle": "MusicBot",
             "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Supporting Self-Awareness in Music Listening",
             "subtitle": "",
@@ -87,7 +87,7 @@ export const projectsData = reactive({
         },
         {
             "id": 5,
-            "photo": "./img/projects/Understanding Disclosure and Support.png",
+            "photo": "/img/projects/Understanding Disclosure and Support.png",
             "shortTitle": "Social Music Communities",
             "title": "Understanding Disclosure and Support in Social Music Communities for Youth Mental Health",
             "subtitle": "",
@@ -108,7 +108,7 @@ export const projectsData = reactive({
         },
         {
             "id": 6,
-            "photo": "./img/projects/Fact-Checking Chatbot.png",
+            "photo": "/img/projects/Fact-Checking Chatbot.png",
             "shortTitle": "Fact-Checking Chatbot",
             "title": "Fact-Checking Chatbot: Comparing Button-Based Chatbots with Webpages for Presenting<br>Fact-Checking Results: A Case Study of Health Information",
             "subtitle": "",
@@ -128,7 +128,7 @@ export const projectsData = reactive({
         },
         {
             "id": 7,
-            "photo": "./img/projects/Wofoo Health Workshop.jpg",
+            "photo": "/img/projects/Wofoo Health Workshop.jpg",
             "shortTitle": "Wofoo Health",
             "title": "Wofoo Health: Development of AI and Real-time Interactive App-based Platform for Tracking of Longitudinal Happiness and Healthy Aging Outcomes of the Aging Population",
             "subtitle": "",
