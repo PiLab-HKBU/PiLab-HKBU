@@ -5,13 +5,12 @@
         <h1 class="title is-2">Intelligent Technology for Well-Being</h1>
         <h2 class="subtitle is-3">Mental Health, Artificial Intelligent, and Recommender Systems</h2>
         <div class="content is-large">
-          <p>
-            Our team is committed to conducting interdisplinary research on development of  innovative human-centered  AI systems for promoting mental health and human well-being.  The team members come from different fields, including computer science, social science, creative art, and psychological and cognitive science.
+          <p v-html="teamDescription">
           </p>
         </div>
-<!--        <figure class="image">-->
-<!--          <img src="@/assets/img/home/Group_photo.jpeg" alt="Group Photo">-->
-<!--        </figure>-->
+        <!--        <figure class="image">-->
+        <!--          <img src="@/assets/img/home/Group_photo.jpeg" alt="Group Photo">-->
+        <!--        </figure>-->
       </div>
     </div>
   </section>
@@ -21,7 +20,10 @@
         <div class="columns">
           <div class="column is-full">
             <p>
-              Our research activities mainly focus on innovation of AI-powered solutions for promoting mental health and human well-being. We have aimed to deliver empirically demonstrated applications to serve various types of users, including general population and specific groups, in collaboration with different mental health service organizations.
+              Our research activities mainly focus on innovation of AI-powered solutions for promoting mental health and
+              human well-being. We have aimed to deliver empirically demonstrated applications to serve various types of
+              users, including general population and specific groups, in collaboration with different mental health
+              service organizations.
             </p>
           </div>
         </div>
@@ -56,15 +58,18 @@
   </section>
   <hr>
   <section class="hero">
-    <div class="hero-body">
+    <div class="hero-body pt-3">
       <div class="container is-max-widescreen">
+        <p class="title mx-5" style="color: black">
+          Projects
+        </p>
         <div class="columns is-multiline">
           <template v-for="project in projectsData.list">
             <HomeProjectCardView :project="project"/>
           </template>
-          <button class="button is-link my-5" style="width: 100%; font-size: 20px; font-weight: 500"
-                  @click="discoverBtnTap">Discover Projects List
-          </button>
+          <!--          <button class="button is-link my-5" style="width: 100%; font-size: 20px; font-weight: 500"-->
+          <!--                  @click="discoverBtnTap">Discover Projects List-->
+          <!--          </button>-->
         </div>
       </div>
     </div>
@@ -80,12 +85,13 @@ export default {
   components: {HomeProjectCardView},
   data() {
     return {
-      projectsData
+      projectsData,
+      teamDescription: "Our team is committed to conducting interdisplinary research on developing innovative human-centered AI systems for promoting mental health and human well-being. The team members come from different fields, including computer science, social science, creative art, and psychological and cognitive science. ",
     }
   },
   methods: {
     discoverBtnTap() {
-      this.$router.push({ name: 'projects', params: { } })
+      this.$router.push({name: 'projects', params: {}})
     }
   }
 }

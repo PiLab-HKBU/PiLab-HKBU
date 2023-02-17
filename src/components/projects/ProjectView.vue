@@ -27,16 +27,13 @@
             <p v-html="project.description"></p>
             <p v-if="project.descriptionRest !== ''" v-html="project.descriptionRest"></p>
             <ul v-if="project.features.length !== 0">
-              <li v-for="feature in project.features">
-                {{ feature }}
+              <li v-for="feature in project.features" v-html="feature">
               </li>
             </ul>
             <template v-if="project.majorFundings.length !== 0">
               <p style="font-size: 18px; font-weight: bold">Major Fundings:</p>
               <ul>
-                <li v-for="feature in project.majorFundings">
-                  {{ feature }}
-                </li>
+                <li v-for="funding in project.majorFundings" v-html="funding"></li>
               </ul>
             </template>
             <blockquote v-if="project.reference.length !== 0">
@@ -52,7 +49,7 @@
           </div>
         </div>
         <div class="column is-4">
-          <img :src="project.photo" alt="Group Photo"
+          <img :src="project.photo" alt="Project Photo"
                style="height: 240px; width: 100%; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;">
         </div>
       </div>

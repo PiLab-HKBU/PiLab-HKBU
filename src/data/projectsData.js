@@ -14,9 +14,9 @@ export const projectsData = reactive({
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "Mood Diary: the system allows users to indicate their daily feelings and visualize their mood changes over time.",
-                "Loneliness Interview: the system is able to assess users' loneliness status through conversation.",
-                "Music Recommendation: the system can recommend music to users according to their current mood.",
+                "<strong>Mood Diary</strong>: the system allows users to indicate their daily feelings and visualize their mood changes over time.",
+                "<strong>Loneliness Interview</strong>: the system is able to assess users' loneliness status through conversation.",
+                "<strong>Music Recommendation</strong>: the system can recommend music to users according to their current mood.",
             ],
             "reference": [
                 "ZHAO, X., & CHEN, L. (2021). (rep.). Design and Implementation of a Music Recommendation Chatbot for Lonely People. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf' target='_blank'>Available: https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf</a>"
@@ -35,9 +35,9 @@ export const projectsData = reactive({
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "Centralised and Integrated Content Database: the system can regularly collect and analyse news articles about mental health from different sources, so that it can always provide the newest, up-to-date information.",
-                "Conversational Assessment: the system is able to assess users' mental status via an interactive, conversational assessment tool.",
-                "Automatic Information Recommendation: the system can automatically recommend articles and informationto users according to the detected mental status.",
+                "<strong>Centralized and Integrated Content Collection</strong>: the system can regularly collect and analyse service information and news articles about mental health from different sources, so that it can always provide the newest, up-to-date information.",
+                "<strong>Conversational Assessment</strong>: the system is able to assess users' mental status via an interactive, conversational assessment tool.",
+                "<strong>Automatic Information Recommendation</strong>: the system can automatically recommend articles and information to users according to the detected mental status.",
             ],
             "reference": [
                 "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhangyizhe.github.io/articles/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://zhangyizhe.github.io/articles/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
@@ -51,13 +51,13 @@ export const projectsData = reactive({
             "title": "PercyBot: Effects of Psychometric Assessment Design on User Response Quality for Open-ended Questions in Mental Health Survey Chatbots",
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Dr. CAI, Wanling, and Mr. ZHAO, Xianglin",
-            "collaborator": "<strong>Collaborator</strong>: Counselling and Development Centre, HKBU",
+            "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
             "description": "PercyBot is a chatbot designed for young adults who feel lonely.",
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "Self-Assessment: PercyBot allows users to assess their feelings of loneliness and get empathetical responses via conversation with the chatbot.",
-                "Timely Support: PercyBot cares about user emotions and provides useful mental health information.",
+                "<strong>Self-Assessment</strong>: PercyBot allows users to assess their feelings of loneliness and get empathetical responses via conversation with the chatbot.",
+                "<strong>Timely Support</strong>: PercyBot cares about user emotions and provides useful mental health information.",
             ],
             "reference": [
                 "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2023). The Way You Test Me Matters: Effects of Psychometric Assessment Design on User Response Quality for Open-ended Questions in a Mental Health Survey Chatbot (to be submitted)"
@@ -76,9 +76,9 @@ export const projectsData = reactive({
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "Emotion-based Music Recommendation: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
-                "Proactive Guidance:  The chatbot can proactivity guide users to follow the suggestions to express their thoughts, understand themselves better, and increase their self-awareness during listening to music.",
-                "Social Information: The chatbot presents relevant music comments that other listeners posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
+                "<strong>Emotion-based Music Recommendation</strong>: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
+                "<strong>Proactive Guidance</strong>:  The chatbot can proactivity guide users to follow the suggestions to express their thoughts, understand themselves better, and increase their self-awareness during listening to music.",
+                "<strong>Social Information</strong>: TThe chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
                 "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23)."
@@ -88,13 +88,13 @@ export const projectsData = reactive({
         {
             "id": 5,
             "photo": "/img/projects/Understanding Disclosure and Support.png",
-            "shortTitle": "Social Music Communities",
-            "title": "Understanding Disclosure and Support in Social Music Communities for Youth Mental Health",
+            "shortTitle": "Social Music Community",
+            "title": "Social Music Community: Understanding Disclosure and Support in Social Music Communities for Youth Mental Health",
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CAI, Wanling, Dr. CHEN, Li, Ms. DAI, Yuwan , and Dr. JIANG, Tonglin",
             "collaborator": "",
-            "description": "We used mixed methods to study mental health disclosure and support on NetEase Cloud Music, a large online social music community in China. In particular, we analysed rich music comments (N = 163) and the associated replies (N = 2,732) related to their psychological distress. Furthermore, we conducted an interview study with 13 young users to understand their perceptions of and motives for engaging in disclosure and support.",
-            "descriptionRest": "",
+            "description": "We used mixed methods to study mental health disclosure and support on NetEase Cloud Music (NCM), a large online social music community in China.",
+            "descriptionRest": "In particular, we analysed rich music comments (N = 163) and the associated replies (N = 2,732) related to their psychological distress. Furthermore, we conducted an interview study with 13 young users to understand their perceptions of and motives for engaging in disclosure and support.",
             "majorFundings": [
                 "NCM uses music to connect young people who share similar music tastes, and this becomes an emotional outlet that allows young people to self-disclose and seek social support. ",
                 "The main types of comments involved experience sharing, and these comments often invoked peer support in the form of encouragement, caring, or self-disclosure.",
@@ -118,8 +118,8 @@ export const projectsData = reactive({
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "Button-based Interaction: This chatbot allows users to get fact-checking results about health-related information by tapping a few buttons in a conversation. In comparison with traditional fact-checking webpages, the chatbot can increase users’ perceived ease of use, which in turn increases the correction effectiveness. ",
-                "High-lighted Expertise Cue: Our experiment shows that highlighting fact-checkers’ titles and avatars to convey the typical stereotypes of professionals tends to decrease users’ behavioural intentions of fact-checking, especially when interacting with webpages.",
+                "<strong>Button-based Interaction</strong>: This chatbot allows users to get fact-checking results about health-related information by tapping a few buttons in a conversation. In comparison with traditional fact-checking webpages, the chatbot can increase users’ perceived ease of use, which in turn increases the correction effectiveness. ",
+                "<strong>Highlighted Expertise Cue</strong>: Our experiment shows that highlighting fact-checkers’ titles and avatars to convey the typical stereotypes of professionals tends to decrease users’ behavioural intentions of fact-checking, especially when interacting with webpages.",
             ],
             "reference": [
                 "Zhao, X., Chen, L., Jin, Y., & Zhang, X. (2023). Comparing Button-based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information. Information Processing & Management, 60(2), 103203."
@@ -128,14 +128,14 @@ export const projectsData = reactive({
         },
         {
             "id": 7,
-            "photo": "/img/projects/Wofoo Health Workshop.jpg",
+            "photo": "/img/projects/Wofoo Health Workshop.png",
             "shortTitle": "Wofoo Health",
             "title": "Wofoo Health: Development of AI and Real-time Interactive App-based Platform for Tracking of Longitudinal Happiness and Healthy Aging Outcomes of the Aging Population",
             "subtitle": "",
             "author": "Prof. Daniel W.L. Lai, Dr. CHEN, Li, Dr. JIN, Yucheng, Mr. ZHANG, Yizhe, Dr. Helen Chan, and Dr. CAI, Wanling",
-            "collaborator": "",
+            "collaborator": "<strong>Supported by</strong> <a href='http://www.wse.hk' target='_blank'>Wofoo Foundation Limited</a>",
             "description": "This project is to integrate the use of AI and data analytics in social and health sciences research to assess and track happiness and health outcomes of the ageing population in Hong Kong.",
-            "descriptionRest": "The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong.",
+            "descriptionRest": "  <img src=\"/img/projects/Wofoo Health Workshop.jpg\" style=\"height: 300px; width: 100%; margin-bottom: 10px; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;\"> The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong.",
             "majorFundings": [],
             "features": [],
             "reference": [],
