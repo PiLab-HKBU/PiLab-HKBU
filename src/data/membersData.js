@@ -26,6 +26,16 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
+                    photo: "/img/members/jiangtonglin.jpg",
+                    displayName: "Dr. JIANG, Tonglin",
+                    cnName: "姜佟琳博士",
+                    title: "",
+                    position: "Tenure-track Assistant Professor<br>School of Psychological and Cognitive Sciences<br>Peking University",
+                    contact: "tljiang@pku.edu.cn",
+                    website: "https://scholar.google.com/citations?hl=zh-TW&user=4_ZuovwAAAAJ",
+                    location: "Beijing, China",
+                },
+                {
                     photo: "https://wanlingcai.github.io/images/wanlingcai_dublin.jpg",
                     displayName: "Dr. CAI, Wanling",
                     cnName: "蔡婉鈴博士",
@@ -35,11 +45,6 @@ export const membersData = reactive({
                     website: "https://wanlingcai.github.io/",
                     location: "Dublin, Ireland",
                 },
-            ]
-        },
-        {
-            title: "Students",
-            members: [
                 {
                     photo: "/img/members/Zhaoxianglin.jpg",
                     displayName: "Mr. ZHAO, Xianglin",
@@ -60,6 +65,12 @@ export const membersData = reactive({
                     website: "https://elecoxy.com",
                     location: "Hong Kong SAR, China",
                 }
+            ]
+        },
+        {
+            title: "Students",
+            members: [
+
             ]
         }
     ]
