@@ -26,13 +26,13 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
-                    photo: "/img/members/jiangtonglin.jpg",
+                    photo: "/img/members/Jiangtonglin.jpg",
                     displayName: "Dr. JIANG, Tonglin",
                     cnName: "姜佟琳博士",
                     title: "",
                     position: "Tenure-track Assistant Professor<br>School of Psychological and Cognitive Sciences<br>Peking University",
                     contact: "tljiang@pku.edu.cn",
-                    website: "https://scholar.google.com/citations?hl=zh-TW&user=4_ZuovwAAAAJ",
+                    website: "http://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/jtl/index.htm",
                     location: "Beijing, China",
                 },
                 {
