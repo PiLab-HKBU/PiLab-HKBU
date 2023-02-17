@@ -81,7 +81,7 @@ export const projectsData = reactive({
                 "<strong>Social Information</strong>: TThe chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
-                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23)."
+                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
             ],
             "video": "https://www.youtube.com/embed/HLFLAHbyHCA",
         },
@@ -102,7 +102,7 @@ export const projectsData = reactive({
             ],
             "features": [],
             "reference": [
-                "Y., Cai, W., Chen, L., Dai, Y., & Jiang, T. (2023). Understanding Disclosure and Support in Social Music Communities for Youth Mental Health. In Proceedings of ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW’23)."
+                "Y., Cai, W., Chen, L., Dai, Y., & Jiang, T. (2023). Understanding Disclosure and Support in Social Music Communities for Youth Mental Health. In Proceedings of ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW’23), October 14, 2023 (Minneapolis, MN, USA)."
             ],
             "video": "",
         },
@@ -110,7 +110,7 @@ export const projectsData = reactive({
             "id": 6,
             "photo": "/img/projects/Fact-Checking Chatbot.png",
             "shortTitle": "Fact-Checking Chatbot",
-            "title": "Fact-Checking Chatbot: Comparing Button-Based Chatbots with Webpages for Presenting<br>Fact-Checking Results: A Case Study of Health Information",
+            "title": "Fact-Checking Chatbot: <br>Comparing Button-Based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information",
             "subtitle": "",
             "author": "Mr. ZHAO, Xianglin, Dr. CHEN, Li, Dr. JIN, Yucheng, and Dr. ZHANG, Xinzhi",
             "collaborator": "",
