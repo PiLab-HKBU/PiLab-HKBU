@@ -3,7 +3,7 @@
     <div class="hero-body theme-background-color">
       <div class="container  is-max-widescreen">
         <h1 class="title is-2">Intelligent Technology for Well-Being</h1>
-        <h2 class="subtitle is-3">Mental Health, Artificial Intelligent, and Recommender Systems</h2>
+        <h2 class="subtitle is-3">Human-Centered AI, Recommender Systems, Psychological Well-Being</h2>
         <div class="content is-large">
           <p v-html="teamDescription">
           </p>

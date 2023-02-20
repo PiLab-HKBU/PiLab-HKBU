@@ -16,6 +16,9 @@
 
       <div class="content" style="overflow-wrap: break-word;">
         <p class="p-0 mb-0" style="font-size: 14px; line-height: 20px; height: 102px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 5;" v-html="person.position"></p>
+        <hr class="my-2">
+        <p class="p-0 m-0" style="color: black; font-weight: bold">Research Interests</p>
+        <p class="p-0 mb-0" style="font-size: 14px; line-height: 20px; height: 82px;  overflow: hidden; display: -webkit-box; webkit-box-orient: vertical; webkit-line-clamp: 4; color: black" v-html="person.interests"></p>
         <template v-if="person.location !== ''">
           <span><ion-icon name="location-outline"></ion-icon> <span style="font-size: 14px; color: black"> {{ person.location }}</span></span>
           <br>
