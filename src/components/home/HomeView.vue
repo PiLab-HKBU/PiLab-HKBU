@@ -32,7 +32,7 @@
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Forensic-medicine-rafiki.png" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">User-centered Interaction Design</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">User-Centered Interaction Design</h5>
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
@@ -44,7 +44,7 @@
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Lo-fi-concept-rafiki.png" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Cross-platform Service Development</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Cross-Platform Service Development</h5>
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       projectsData,
-      teamDescription: "Our team is committed to conducting interdisplinary research on developing innovative human-centered AI systems for promoting mental health and human well-being. The team members come from different fields, including computer science, social science, creative art, and psychological and cognitive science. ",
+      teamDescription: "Our team is committed to conducting interdisplinary research on developing innovative human-centered AI systems for promoting mental health and human well-being. The team members come from different fields, including computer science, social sciences, creative arts, and psychological and cognitive sciences.",
     }
   },
   methods: {
