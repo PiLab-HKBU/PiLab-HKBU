@@ -30,7 +30,7 @@
         <div class="columns">
           <div class="column is-3 is-text-center">
             <figure class="image">
-              <img src="@/assets/img/home/fourSmallImgs/Forensic-medicine-rafiki.png" alt="Small Photo">
+              <img src="@/assets/img/home/fourSmallImgs/Personal-data-pana.png" style="padding: 20px" alt="Small Photo">
             </figure>
             <h5 class="subtitle is-5" style="width: 100%; text-align: center">User-Centered Interaction Design</h5>
           </div>
@@ -48,9 +48,9 @@
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
-              <img src="@/assets/img/home/fourSmallImgs/Business-Plan-rafiki.png" alt="Small Photo">
+              <img src="@/assets/img/home/fourSmallImgs/Recommendation-letter-amico.png" style="padding: 20px" alt="Small Photo">
             </figure>
-            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Recommender Systems</h5>
+            <h5 class="subtitle is-5" style="width: 100%; text-align: center">Personalized Recommender Systems</h5>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default {
   data() {
     return {
       projectsData,
-      teamDescription: "Our team is committed to conducting interdisplinary research on developing innovative human-centered AI systems for promoting mental health and human well-being. The team members come from different fields, including computer science, social sciences, creative arts, and psychological and cognitive sciences.",
+      teamDescription: "Our team is committed to conducting interdisplinary research on developing innovative and personalized human-centered AI systems for promoting mental health and human well-being. The team members come from different fields, including computer science, social sciences, creative arts, and psychological and cognitive sciences. ",
     }
   },
   methods: {

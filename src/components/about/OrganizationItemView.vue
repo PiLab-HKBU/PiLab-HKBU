@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="cart-footer p-4">
+    <div class="card-footer p-4">
       <div class="content" style="overflow-wrap: break-word;">
         <template v-if="item.location !== ''">
           <span><ion-icon name="location-outline"></ion-icon> <span style="font-size: 14px; color: black"> {{ item.location }}</span></span>
@@ -47,7 +47,7 @@ ion-icon {
   flex-direction: column;
 }
 
-.cart-footer {
+.card-footer {
   margin-top: auto;
 }
 

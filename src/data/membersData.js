@@ -44,7 +44,7 @@ export const membersData = reactive({
                     cnName: "張昕之博士",
                     title: "",
                     position: "Assistant Professor<br>Department of Interactive Media<br>School of Communication<br>Hong Kong Baptist University",
-                    interests: "Political Communication, Digital Journalism, Digital Public Health Campaigns, and Computational Social Science",
+                    interests: "Digital Public Health Campaigns, and Computational Social Science",
                     contact: "xzzhang2@gmail.com",
                     website: "https://drxinzhizhang.com/",
                     location: "Hong Kong SAR, China",

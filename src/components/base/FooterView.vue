@@ -7,7 +7,7 @@
         </p>
         <p>
           <a href="https://bupdpo.hkbu.edu.hk/policies-and-procedures/pps-pics/" target="_blank">Privacy Policy</a> |
-          <a href="https://storyset.com">Home page illustrations by Storyset</a>
+          <a href="https://storyset.com" target="_blank">Illustrations by Storyset</a>
         </p>
         <a href="https://www.comp.hkbu.edu.hk" target="_blank"><img src="@/assets/img/comp-logo.png" alt="logo" style="height: 30px; margin-right: 20px"></a>
         <a href="https://hkbu.edu.hk" target="_blank"><img src="@/assets/img/bu-logo.png" alt="logo" style="height: 30px;"></a>
