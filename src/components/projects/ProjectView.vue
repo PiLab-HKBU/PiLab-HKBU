@@ -21,9 +21,15 @@
           <div class="content">
             <div class="subtitle mb-0" v-html="project.author"></div>
             <div class="subtitle" v-html="project.collaborator"></div>
-            <div v-if="project.video">
-              <iframe class="youtube-embed-frame" :src="project.video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            <template v-if="project.video">
+              <iframe class="youtube-embed-frame" :src="project.video"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+            </template>
+            <template v-if="project.video === '' && project.topImage !== ''">
+              <img :src="project.topImage"
+                   style="height: 400px; width: 100%; margin-bottom: 10px; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;">
+            </template>
             <p v-html="project.description"></p>
             <p v-if="project.descriptionRest !== ''" v-html="project.descriptionRest"></p>
             <ul v-if="project.features.length !== 0">
@@ -42,7 +48,7 @@
               </div>
               <ol style="list-style-type: none">
                 <li v-for="item in project.reference">
-                 <p v-html="item"></p>
+                  <p v-html="item"></p>
                 </li>
               </ol>
             </blockquote>
@@ -66,7 +72,7 @@
 </template>
 
 <script>
-import { projectsData } from "@/data/projectsData";
+import {projectsData} from "@/data/projectsData";
 
 export default {
   name: "ProjectView",

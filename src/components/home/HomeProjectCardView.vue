@@ -70,5 +70,7 @@ export default {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
+  white-space: break-spaces;
 }
 </style>

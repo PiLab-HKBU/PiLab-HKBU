@@ -22,6 +22,7 @@ export const projectsData = reactive({
                 "ZHAO, X., & CHEN, L. (2021). (rep.). Design and Implementation of a Music Recommendation Chatbot for Lonely People. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf' target='_blank'>Available: https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf</a>"
             ],
             "video": "https://www.youtube.com/embed/S8sB3t7coi4",
+            "topImage": "",
         },
         {
             "id": 2,
@@ -43,6 +44,7 @@ export const projectsData = reactive({
                 "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhangyizhe.github.io/articles/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://zhangyizhe.github.io/articles/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
             ],
             "video": "https://www.youtube.com/embed/PkhFABofVg0",
+            "topImage": "",
         },
         {
             "id": 3,
@@ -63,6 +65,7 @@ export const projectsData = reactive({
                 "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2023). The Way You Test Me Matters: Effects of Psychometric Assessment Design on User Response Quality for Open-ended Questions in a Mental Health Survey Chatbot (to be submitted)"
             ],
             "video": "https://www.youtube.com/embed/GJufdEYBDZ8",
+            "topImage": "",
         },
         {
             "id": 4,
@@ -84,6 +87,7 @@ export const projectsData = reactive({
                 "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
             ],
             "video": "https://www.youtube.com/embed/HLFLAHbyHCA",
+            "topImage": "",
         },
         {
             "id": 5,
@@ -105,6 +109,7 @@ export const projectsData = reactive({
                 "Y., Cai, W., Chen, L., Dai, Y., & Jiang, T. (2023). Understanding Disclosure and Support in Social Music Communities for Youth Mental Health. In Proceedings of ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW’23), October 14, 2023 (Minneapolis, MN, USA)."
             ],
             "video": "",
+            "topImage": "",
         },
         {
             "id": 6,
@@ -125,6 +130,7 @@ export const projectsData = reactive({
                 "Zhao, X., Chen, L., Jin, Y., & Zhang, X. (2023). Comparing Button-based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information. Information Processing & Management, 60(2), 103203."
             ],
             "video": "https://www.youtube.com/embed/ItcIC7eZiQo",
+            "topImage": "",
         },
         {
             "id": 7,
@@ -135,11 +141,12 @@ export const projectsData = reactive({
             "author": "Prof. Daniel W.L. Lai, Dr. CHEN, Li, Dr. JIN, Yucheng, Mr. ZHANG, Yizhe, Dr. Helen Chan, and Dr. CAI, Wanling",
             "collaborator": "<strong>Supported by</strong> <a href='http://www.wse.hk' target='_blank'>Wofoo Foundation Limited</a>",
             "description": "This project is to integrate the use of AI and data analytics in social and health sciences research to assess and track happiness and health outcomes of the ageing population in Hong Kong.",
-            "descriptionRest": "  <img src=\"/img/projects/Wofoo Health Workshop.jpg\" style=\"height: 300px; width: 100%; margin-bottom: 10px; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;\"> The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong. <img src=\"/img/projects/Wofoo Health Interface Widgets.jpg\" style=\"height: 300px; width: 100%; margin-top: 15px; margin-bottom: 15px; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;\" alt=''>",
+            "descriptionRest": "The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong. <img class='description-image' src=\"/img/projects/Wofoo Health Interface Widgets.jpg\" alt=''> <style>.description-image { width: 100%; margin-top: 15px; margin-bottom: 15px; border-radius: 10px; overflow: hidden; object-fit: contain; border: 1px solid #e8e8e8; }</style>",
             "majorFundings": [],
             "features": [],
             "reference": [],
             "video": "",
+            "topImage": "/img/projects/Wofoo Health Workshop.jpg",
         }
     ]
 })
