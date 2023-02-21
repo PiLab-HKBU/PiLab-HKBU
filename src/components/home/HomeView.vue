@@ -48,7 +48,7 @@
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
-              <img src="@/assets/img/home/fourSmallImgs/Recommendation-letter-amico.png" style="padding: 20px" alt="Small Photo">
+              <img src="@/assets/img/home/fourSmallImgs/Personalization-amico.png" style="padding: 20px" alt="Small Photo">
             </figure>
             <h5 class="subtitle is-5" style="width: 100%; text-align: center">Personalized Recommender Systems</h5>
           </div>
