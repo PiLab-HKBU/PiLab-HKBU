@@ -55,7 +55,7 @@ export const membersData = reactive({
                     cnName: "蔡婉鈴博士",
                     title: "",
                     position: "Postdoctoral researcher<br>School of Computer Science and Statistics<br>Trinity College Dublin (TCD)",
-                    interests: "Human-Centered Artificial Intelligence (HCAI)",
+                    interests: "Human-AI Interaction, Technology for Health and Well-being, Usable Security and Privacy, Recommender Systems",
                     contact: "-",
                     website: "https://wanlingcai.github.io/",
                     location: "Dublin, Ireland",
