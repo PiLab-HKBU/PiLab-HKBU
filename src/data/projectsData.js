@@ -50,7 +50,7 @@ export const projectsData = reactive({
             "id": 3,
             "photo": "/img/projects/PercyBot.png",
             "shortTitle": "PercyBot",
-            "title": "PercyBot: Effects of Psychometric Assessment Design on User Response Quality for Open-ended Questions in Mental Health Survey Chatbots",
+            "title": "PercyBot: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health",
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Dr. CAI, Wanling, and Mr. ZHAO, Xianglin",
             "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
