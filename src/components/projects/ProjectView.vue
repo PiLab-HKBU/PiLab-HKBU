@@ -48,7 +48,7 @@
               </div>
               <ol style="list-style-type: none">
                 <li v-for="item in project.reference">
-                  <p v-html="item"></p>
+                  <p class="reference_item" v-html="item"></p>
                 </li>
               </ol>
             </blockquote>
@@ -115,5 +115,8 @@ export default {
 .youtube-embed-frame {
   height: 400px;
   width: 100%;
+}
+.reference_item {
+  word-wrap: break-word;
 }
 </style>
