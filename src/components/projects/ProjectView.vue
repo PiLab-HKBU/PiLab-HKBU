@@ -21,15 +21,6 @@
           <div class="content">
             <div class="subtitle mb-0" v-html="project.author"></div>
             <div class="subtitle" v-html="project.collaborator"></div>
-            <template v-if="project.video">
-              <iframe class="youtube-embed-frame" :src="project.video"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen></iframe>
-            </template>
-            <template v-if="project.video === '' && project.topImage !== ''">
-              <img :src="project.topImage"
-                   style="height: 400px; width: 100%; margin-bottom: 10px; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;">
-            </template>
             <p v-html="project.description"></p>
             <p v-if="project.descriptionRest !== ''" v-html="project.descriptionRest"></p>
             <ul v-if="project.features.length !== 0">
@@ -41,6 +32,15 @@
               <ul>
                 <li v-for="funding in project.majorFundings" v-html="funding"></li>
               </ul>
+            </template>
+            <template v-if="project.video">
+              <iframe class="youtube-embed-frame" :src="project.video"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+            </template>
+            <template v-for="photo in project.photos">
+              <img class="description-image" :src="photo.img" >
+              <figcaption v-if="photo.caption" v-html="photo.caption"></figcaption>
             </template>
             <blockquote v-if="project.reference.length !== 0">
               <div class="subtitle">
@@ -115,8 +115,25 @@ export default {
 .youtube-embed-frame {
   height: 400px;
   width: 100%;
+  margin-bottom: 10px;
 }
+
 .reference_item {
   word-wrap: break-word;
+}
+
+.description-image {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: contain;
+  border: 1px solid #e8e8e8;
+}
+
+figcaption {
+  margin-bottom: 10px;
+  font-size: 14px
 }
 </style>
