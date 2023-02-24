@@ -54,7 +54,7 @@
             </blockquote>
           </div>
         </div>
-        <div class="column is-4">
+        <div class="column is-4 is-hidden-mobile">
           <img :src="project.photo" alt="Project Photo"
                style="height: 240px; width: 100%; border-radius: 10px; overflow: hidden; object-fit: cover; border: 1px solid #e8e8e8;">
         </div>
