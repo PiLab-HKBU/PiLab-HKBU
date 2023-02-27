@@ -40,7 +40,7 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/Daniel.jpg",
-                    displayName: "Professor Lai Wing-leung, Daniel",
+                    displayName: "Prof. LAI W. L., Daniel",
                     cnName: "黎永亮教授",
                     title: "",
                     position: "Dean of Faculty of Social Sciences<br>Chair Professor of Social Work<br>Faculty of Social Sciences<br>Hong Kong Baptist University",
