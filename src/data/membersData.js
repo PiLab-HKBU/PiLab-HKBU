@@ -61,7 +61,7 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
-                    photo: "https://wanlingcai.github.io/images/wanlingcai_dublin.jpg",
+                    photo: "/img/members/wanlingcai_dublin.jpg",
                     displayName: "Dr. CAI, Wanling",
                     cnName: "蔡婉鈴博士",
                     title: "",
