@@ -1,10 +1,12 @@
 <template>
   <div class="card">
-    <div class="card-image">
-      <figure class="image is-2by1" style="overflow: hidden">
-        <img class="memberPicture" :src="item.photo" alt="Placeholder image" style="object-fit: contain">
-      </figure>
-    </div>
+    <a :href="item.website" target="_blank">
+      <div class="card-image">
+        <figure class="image is-2by1" style="overflow: hidden">
+          <img class="memberPicture" :src="item.photo" alt="Placeholder image" style="object-fit: contain">
+        </figure>
+      </div>
+    </a>
     <div class="card-content p-4">
       <div class="media mb-2">
         <div class="media-content">
@@ -17,11 +19,13 @@
     <div class="card-footer p-4">
       <div class="content" style="overflow-wrap: break-word;">
         <template v-if="item.location !== ''">
-          <span><ion-icon name="location-outline"></ion-icon> <span style="font-size: 14px; color: black"> {{ item.location }}</span></span>
+          <span><ion-icon name="location-outline"></ion-icon> <span
+              style="font-size: 14px; color: black"> {{ item.location }}</span></span>
           <br>
         </template>
         <template v-if="item.website !== ''">
-          <span><ion-icon name="browsers-outline"></ion-icon> <a :href="item.website" target="_blank" style="font-size: 14px; color: black">Website</a></span>
+          <span><ion-icon name="browsers-outline"></ion-icon> <a :href="item.website" target="_blank"
+                                                                 style="font-size: 14px; color: black">Website</a></span>
         </template>
       </div>
     </div>
@@ -43,7 +47,7 @@ ion-icon {
 
 .card {
   height: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 

@@ -1,10 +1,12 @@
 <template>
   <div class="card">
-    <div class="card-image">
-      <figure class="image is-4by3" style="overflow: hidden">
-        <img class="memberPicture" :src="person.photo" alt="Placeholder image" style="object-fit: cover">
-      </figure>
-    </div>
+    <a :href="person.website" target="_blank">
+      <div class="card-image">
+        <figure class="image is-4by3" style="overflow: hidden">
+          <img class="memberPicture" :src="person.photo" alt="Placeholder image" style="object-fit: cover">
+        </figure>
+      </div>
+    </a>
     <div class="card-content p-4">
       <div class="media mb-2">
         <div class="media-content">
