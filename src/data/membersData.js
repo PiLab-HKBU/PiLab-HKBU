@@ -39,6 +39,17 @@ export const membersData = reactive({
                     location: "Beijing, China",
                 },
                 {
+                    photo: "/img/members/Daniel.jpg",
+                    displayName: "Professor Lai Wing-leung, Daniel",
+                    cnName: "黎永亮教授",
+                    title: "",
+                    position: "Dean of Faculty of Social Sciences<br>Chair Professor of Social Work<br>Faculty of Social Sciences<br>Hong Kong Baptist University",
+                    interests: "Social work and Gerontology, Health and Aging, Culture and Immigration, and Outcome Evaluation",
+                    contact: "daniel_lai@hkbu.edu.hk",
+                    website: "https://sowk.hkbu.edu.hk/en/people/academic_staff_detail/35?back=%2Fen%2Fpeople%2F",
+                    location: "Hong Kong SAR, China",
+                },
+                {
                     photo: "/img/members/ZHANGXinzhi.jpg",
                     displayName: "Dr. ZHANG, Xinzhi",
                     cnName: "張昕之博士",
