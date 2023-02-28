@@ -51,9 +51,9 @@ export const projectsData = reactive({
             "photo": "/img/projects/PercyBot.png",
             "photos": [],
             "shortTitle": "PercyBot",
-            "title": "PercyBot: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health",
+            "title": "PercyBot: Effects of Psvchometric Assessment Desian on User Response Quality for Open-ended Questions in a Mental Health Survey Chatbot",
             "subtitle": "",
-            "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Dr. CAI, Wanling, and Mr. ZHAO, Xianglin",
+            "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Mr. ZHAO, Xianglin, and Dr. CAI, Wanling",
             "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
             "description": "PercyBot is a chatbot designed for young adults who feel lonely.",
             "descriptionRest": "",
@@ -98,7 +98,7 @@ export const projectsData = reactive({
                     "caption": "Fig.1 - UI Interfaces.",
                 },
                 {
-                    "img": "/img/projects/socialMusicCommunity/result_cscw.png",
+                    "img": "/img/projects/socialMusicCommunity/result_cscw_2.png",
                     "caption": "Fig.2 - Result Data.",
                 }
             ],
@@ -116,7 +116,7 @@ export const projectsData = reactive({
             ],
             "features": [],
             "reference": [
-                "Y., Cai, W., Chen, L., Dai, Y., & Jiang, T. (2023). Understanding Disclosure and Support in Social Music Communities for Youth Mental Health. In Proceedings of ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW’23), October 14, 2023 (Minneapolis, MN, USA)."
+                "JIN, Y., Cai, W., Chen, L., Dai, Y., & Jiang, T. (2023). Understanding Disclosure and Support in Social Music Communities for Youth Mental Health. In Proceedings of ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW’23), October 14, 2023 (Minneapolis, MN, USA)."
             ],
             "video": "",
         },
@@ -161,7 +161,7 @@ export const projectsData = reactive({
             "shortTitle": "Wofoo Health",
             "title": "Wofoo Health: Development of AI and Real-time Interactive App-based Platform for Tracking of Longitudinal Happiness and Healthy Aging Outcomes of the Aging Population",
             "subtitle": "",
-            "author": "Prof. Daniel W.L. Lai, Dr. CHEN, Li, Dr. JIN, Yucheng, Mr. ZHANG, Yizhe, Dr. Helen Chan, and Dr. CAI, Wanling",
+            "author": "Prof. LAI, W. L. Daniel, Dr. CHEN, Li, Dr. JIN, Yucheng, Mr. ZHANG, Yizhe, Dr. CHAN, Helen, and Dr. CAI, Wanling",
             "collaborator": "<strong>Supported by</strong> <a href='http://www.wse.hk' target='_blank'>Wofoo Foundation Limited</a>",
             "description": "This project is to integrate the use of AI and data analytics in social and health sciences research to assess and track happiness and health outcomes of the ageing population in Hong Kong.",
             "descriptionRest": "The unique feature of this system is that through the use of AI technology, real time questions can be fed to users to capture their “here-and-now” responses to various social, health, and policy related measures, circumstances, and programming efforts. This proposed system will overcome the lag time limitation of traditional cross-sectional survey research methods in capturing happiness and health outcome status. The real time data could be adopted for building interactive database software that has the potential to provide useful longitudinal data visualisation and analytics for addressing healthy aging needs of the aging population in Hong Kong.",
