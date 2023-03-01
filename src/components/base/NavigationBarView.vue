@@ -2,7 +2,9 @@
   <div class="container is-max-widescreen">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <img src="@/assets/img/PI-Lab-Logo-Small.jpg" alt="logo" style="height: 60px; margin-top: 10px; margin-left: 10px">
+        <router-link :to="{ name: 'home', params: {}}">
+          <img src="@/assets/img/PI-Lab-Logo-Small.jpg" alt="logo" style="height: 60px; margin-top: 10px; margin-left: 10px">
+        </router-link>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="baseNavbar">
           <span aria-hidden="true"></span>
