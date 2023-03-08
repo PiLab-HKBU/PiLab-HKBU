@@ -33,7 +33,7 @@ const routes = [
             }
         ],
 
-    },
+    }
     // {
     //     path: '/contact',
     //     name: 'contact',
@@ -54,6 +54,13 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to, from) => {
+
+    // 跳轉到博客站
+    if (to.path === '/blog') {
+        window.location = 'https://zhaoxianglin.github.io'
+        return
+    }
+
     if (
         // make sure the user is authenticated
         !store.isNotAuthenticated &&
