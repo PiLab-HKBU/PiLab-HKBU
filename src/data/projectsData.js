@@ -72,7 +72,7 @@ export const projectsData = reactive({
             "photo": "/img/projects/MusicBot.png",
             "photos": [],
             "shortTitle": "MusicBot",
-            "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening",
+            "title": "\"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music",
             "subtitle": "",
             "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
             "collaborator": "",
@@ -85,7 +85,7 @@ export const projectsData = reactive({
                 "<strong>Social Information</strong>: The chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
-                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
+                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
             ],
             "video": "https://www.youtube.com/embed/HLFLAHbyHCA",
         },
