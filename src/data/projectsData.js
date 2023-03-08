@@ -72,7 +72,7 @@ export const projectsData = reactive({
             "photo": "/img/projects/MusicBot.png",
             "photos": [],
             "shortTitle": "MusicBot",
-            "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Supporting Self-Awareness in Music Listening",
+            "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening.",
             "subtitle": "",
             "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
             "collaborator": "",
@@ -82,7 +82,7 @@ export const projectsData = reactive({
             "features": [
                 "<strong>Emotion-based Music Recommendation</strong>: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
                 "<strong>Proactive Guidance</strong>:  The chatbot can proactivity guide users to follow the suggestions to express their thoughts, understand themselves better, and increase their self-awareness during listening to music.",
-                "<strong>Social Information</strong>: TThe chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
+                "<strong>Social Information</strong>: The chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
                 "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). “Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
