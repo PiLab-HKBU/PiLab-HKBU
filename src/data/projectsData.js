@@ -72,7 +72,7 @@ export const projectsData = reactive({
             "photo": "/img/projects/MusicBot.png",
             "photos": [],
             "shortTitle": "MusicBot",
-            "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening.",
+            "title": "“Listen to Music, Listen to Yourself”: Design of a Conversational Agent for Promoting Self-Awareness in Music Listening",
             "subtitle": "",
             "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
             "collaborator": "",
