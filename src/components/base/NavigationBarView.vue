@@ -3,7 +3,8 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="{ name: 'home', params: {}}">
-          <img src="@/assets/img/PI-Lab-Logo-Small.jpg" alt="logo" style="height: 60px; margin-top: 10px; margin-left: 10px">
+          <img src="@/assets/img/PI-Lab-Logo-Small.jpg" alt="logo"
+               style="height: 60px; margin-top: 10px; margin-left: 10px">
         </router-link>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="baseNavbar">
@@ -19,39 +20,46 @@
         </div>
 
         <div class="navbar-end">
-          <router-link :to="{ name: 'home', params: {}}" :class="['navbar-item', currentIndex === '' ? 'is-active' : '']">
+          <router-link :to="{ name: 'home', params: {}}"
+                       :class="['navbar-item', currentIndex === '' ? 'is-active' : '']">
             Home
           </router-link>
 
-          <router-link :to="{ name: 'teamMember', params: {}}" :class="['navbar-item', currentIndex === 'teamMember' ? 'is-active' : '']">
+          <router-link :to="{ name: 'teamMember', params: {}}"
+                       :class="['navbar-item', currentIndex === 'teamMember' ? 'is-active' : '']">
             Team Members
           </router-link>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <router-link :to="{ name: 'projects', params: {}}" :class="['navbar-item', currentIndex === 'projects' ? 'is-active' : '']">
+            <router-link :to="{ name: 'projects', params: {}}"
+                         :class="['navbar-item', currentIndex === 'projects' ? 'is-active' : '']">
               Projects
             </router-link>
 
             <div class="navbar-dropdown">
               <template v-for="project in projectsData.list">
-                <router-link  class="navbar-item" :to="{ name: 'project', query: {pid: project.id}}">
+                <router-link class="navbar-item" :to="{ name: 'project', query: {pid: project.id}}">
                   {{ project.shortTitle }}
                 </router-link>
               </template>
             </div>
           </div>
 
-<!--          <a class="navbar-item">-->
-<!--            Participants-->
+          <!--          <a class="navbar-item">-->
+          <!--            Participants-->
+          <!--          </a>-->
+
+          <!--          <a class="navbar-item">-->
+          <!--            Work With Us-->
+          <!--          </a>-->
+
+<!--          <a href="#/blog" target="_blank" :class="['navbar-item']">-->
+<!--            Blog-->
 <!--          </a>-->
 
-<!--          <a class="navbar-item">-->
-<!--            Work With Us-->
-<!--          </a>-->
-
-<!--          <router-link :to="{ name: 'contact', params: {}}" :class="['navbar-item', currentIndex === 'contact' ? 'is-active' : '']">-->
-<!--            Contact-->
-<!--          </router-link>-->
+          <!--          <router-link :to="{ name: 'contact', params: {}}" :class="['navbar-item', currentIndex === 'contact' ? 'is-active' : '']">-->
+          <!--            Contact-->
+          <!--          </router-link>-->
         </div>
       </div>
     </nav>
@@ -59,7 +67,7 @@
 </template>
 
 <script>
-import { projectsData } from "@/data/projectsData";
+import {projectsData} from "@/data/projectsData";
 
 export default {
   name: "NavigationBarView",
@@ -76,9 +84,7 @@ export default {
       return this.currentRoute.split("/")[1]
     }
   },
-  methods: {
-
-  }
+  methods: {}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -87,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Add a click event on each of them
-  $navbarBurgers.forEach( el => {
+  $navbarBurgers.forEach(el => {
     el.addEventListener('click', () => {
 
       // Get the target from the "data-target" attribute
