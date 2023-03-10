@@ -57,7 +57,7 @@ router.beforeEach(async (to, from) => {
 
     // 跳轉到博客站
     if (to.path === '/blog') {
-        window.location = 'https://zhaoxianglin.github.io'
+        window.location = 'https://pilab-hkbu.github.io/blog/'
         return
     }
 
