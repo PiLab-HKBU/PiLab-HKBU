@@ -87,7 +87,7 @@ export const projectsData = reactive({
             "reference": [
                 "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
             ],
-            "video": "https://www.youtube.com/embed/HLFLAHbyHCA",
+            "video": "https://www.youtube.com/embed/MJFyP1Mc_JE",
         },
         {
             "id": 5,
