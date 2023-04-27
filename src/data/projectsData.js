@@ -42,7 +42,7 @@ export const projectsData = reactive({
                 "<strong>Automatic Information Recommendation</strong>: the system can automatically recommend articles and information to users according to the detected mental status.",
             ],
             "reference": [
-                "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://zhangyizhe.github.io/articles/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
+                "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
             ],
             "video": "https://www.youtube.com/embed/PkhFABofVg0",
         },
