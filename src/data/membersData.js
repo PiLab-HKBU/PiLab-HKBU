@@ -7,10 +7,10 @@ export const membersData = reactive({
             members: [
                 {
                     photo: "https://www.comp.hkbu.edu.hk/v1/?pic_org=418",
-                    displayName: "Dr. CHEN, Li",
-                    cnName: "陳黎博士",
+                    displayName: "Prof. CHEN, Li",
+                    cnName: "陳黎教授",
                     title: "",
-                    position: "Associate Head (Research) and Associate Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
+                    position: "Associate Head (Research) and Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Human-Centered AI, Data-Driven Interaction, Web Personalization, Recommender Systems, Intelligent User Interfaces",
                     contact: "lichen@comp.hkbu.edu.hk",
                     website: "https://www.comp.hkbu.edu.hk/~lichen",
