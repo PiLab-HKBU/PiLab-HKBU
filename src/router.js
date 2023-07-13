@@ -8,6 +8,16 @@ const routes = [
         component: () => import('@/components/home/HomeView.vue'),
     },
     {
+        path: '/:catchAll(.*)',
+        name: '404',
+        component: () => import('@/components/base/EmptyView.vue'),
+    },
+    {
+        path: '/loading',
+        name: 'loading',
+        component: () => import('@/components/base/LoadingView.vue'),
+    },
+    {
         path: '/login',
         name: 'login',
         component: () => import('@/components/home/LoginView.vue'),
@@ -55,10 +65,15 @@ const router = createRouter({
 
 router.beforeEach(async (to, from) => {
 
+    store.hiddenTopAndBottom = (to.name === "loading" || to.name === "404");
+
     // 跳轉到博客站
     if (to.path === '/blog') {
         window.location = 'https://pilab-hkbu.github.io/blog/'
-        return
+        return { name: 'loading' }
+    } else if (to.path === '/experiment/book-job-bot') { // 跳轉到book&job Bot
+        window.location = 'https://elecoxy.com/book-job-gpt/'
+        return { name: 'loading' }
     }
 
     if (

@@ -1,5 +1,27 @@
+<script setup>
+import {projectsData} from "@/data/projectsData";
+import {computed} from "vue";
+import {useRoute} from "vue-router";
+import { store } from "@/data/store";
+
+const location = useRoute();
+
+const currentRoute = computed(() => {
+  return location.path
+})
+
+const currentIndex = computed(() => {
+  try {
+    return location.path.split("/")[1]
+  } catch {
+    return ""
+  }
+})
+
+</script>
+
 <template>
-  <div class="container is-max-widescreen">
+  <div class="container is-max-widescreen" v-if="!store.hiddenTopAndBottom">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="{ name: 'home', params: {}}">
@@ -67,25 +89,6 @@
 </template>
 
 <script>
-import {projectsData} from "@/data/projectsData";
-
-export default {
-  name: "NavigationBarView",
-  data() {
-    return {
-      projectsData
-    }
-  },
-  computed: {
-    currentRoute() {
-      return this.$route["path"]
-    },
-    currentIndex() {
-      return this.currentRoute.split("/")[1]
-    }
-  },
-  methods: {}
-}
 
 document.addEventListener('DOMContentLoaded', () => {
 

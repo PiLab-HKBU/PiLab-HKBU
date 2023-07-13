@@ -1,9 +1,13 @@
+<script setup>
+import { store } from "@/data/store";
+</script>
+
 <template>
-  <footer class="footer py-6">
+  <footer class="footer py-6" v-if="!store.hiddenTopAndBottom">
     <div class="container is-max-widescreen">
       <div class="content has-text-centered">
         <p>
-          Copyright © 2023 <a href="https://hci.comp.hkbu.edu.hk"><strong>PI Lab</strong></a>. All Rights Reserved.
+          Copyright © 2023 <a href="/"><strong>PI Lab</strong></a>. All Rights Reserved.
         </p>
         <p>
           <a href="https://bupdpo.hkbu.edu.hk/policies-and-procedures/pps-pics/" target="_blank">Privacy Policy</a> |
@@ -16,12 +20,6 @@
     </div>
   </footer>
 </template>
-
-<script>
-export default {
-  name: "FooterView"
-}
-</script>
 
 <style scoped>
 
