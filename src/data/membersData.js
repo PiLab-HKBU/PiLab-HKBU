@@ -87,7 +87,7 @@ export const membersData = reactive({
                     displayName: "Mr. ZHANG, Yizhe",
                     cnName: "張藝哲先生",
                     title: "",
-                    position: "Research Assistant<br>Department of Computer Science<br>Hong Kong Baptist University",
+                    position: "Senior Research Assistant<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Recommender Systems, Human-Computer Interaction, Software Engineering",
                     contact: "csyzzhang@comp.hkbu.edu.hk",
                     website: "https://elecoxy.com",
