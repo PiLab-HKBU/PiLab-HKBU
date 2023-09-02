@@ -73,7 +73,7 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/YUSinan.jpg",
-                    displayName: "Mrs. Yu, Sinan",
+                    displayName: "Mrs. YU, Sinan",
                     cnName: "余思南女士",
                     title: "",
                     position: "Ph.D. student<br>Department of Computer Science<br>Hong Kong Baptist University",
