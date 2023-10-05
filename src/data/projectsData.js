@@ -103,7 +103,7 @@ export const projectsData = reactive({
                 }
             ],
             "shortTitle": "Social Music Community",
-            "title": "Social Music Community: Understanding Disclosure and Support in Social Music Communities for Youth Mental Health",
+            "title": "Social Music Community: Understanding Disclosure and Support for Youth Mental Health in Social Music Communities",
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CAI, Wanling, Dr. CHEN, Li, Ms. DAI, Yuwan , and Dr. JIANG, Tonglin",
             "collaborator": "",
