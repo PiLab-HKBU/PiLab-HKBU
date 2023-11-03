@@ -71,7 +71,7 @@ router.beforeEach(async (to, from) => {
     if (to.path === '/blog') {
         window.location = 'https://pilab-hkbu.github.io/blog/'
         return { name: 'loading' }
-    } else if (to.path === '/aipoets') {
+    } else if (to.path.toLowerCase() === '/aipoets') {
         window.location = 'https://pilab-hkbu.github.io/AIPoets/'
         return { name: 'loading' }
     } else if (to.path === '/experiment/recommenderbots') { // 跳轉到book&job Bot
