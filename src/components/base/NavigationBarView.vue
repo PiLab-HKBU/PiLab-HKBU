@@ -1,6 +1,6 @@
 <script setup>
 import {projectsData} from "@/data/projectsData";
-import {computed} from "vue";
+import {computed, ref} from "vue";
 import {useRoute} from "vue-router";
 import { store } from "@/data/store";
 
@@ -18,6 +18,8 @@ const currentIndex = computed(() => {
   }
 })
 
+const navbarBurger = ref(false)
+
 </script>
 
 <template>
@@ -29,14 +31,14 @@ const currentIndex = computed(() => {
                style="height: 60px; margin-top: 10px; margin-left: 10px">
         </router-link>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="baseNavbar">
+        <a role="button" :class="['navbar-burger', navbarBurger ? 'is-active' : '']" aria-label="menu" aria-expanded="false" @click="navbarBurger=!navbarBurger" data-target="baseNavbar">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
 
-      <div id="baseNavbar" class="navbar-menu">
+      <div id="baseNavbar" :class="['navbar-menu', navbarBurger ? 'is-active' : '']">
         <div class="navbar-start">
 
         </div>
@@ -87,31 +89,6 @@ const currentIndex = computed(() => {
     </nav>
   </div>
 </template>
-
-<script>
-
-document.addEventListener('DOMContentLoaded', () => {
-
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  // Add a click event on each of them
-  $navbarBurgers.forEach(el => {
-    el.addEventListener('click', () => {
-
-      // Get the target from the "data-target" attribute
-      const target = el.dataset.target;
-      const $target = document.getElementById(target);
-
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      el.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
-
-    });
-  });
-
-});
-</script>
 
 <style scoped>
 </style>
