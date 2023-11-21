@@ -7,9 +7,9 @@ export const membersData = reactive({
             members: [
                 {
                     photo: "https://www.comp.hkbu.edu.hk/v1/?pic_org=418",
-                    displayName: "Prof. CHEN, Li",
+                    displayName: "CHEN, Li",
                     cnName: "陳黎教授",
-                    title: "",
+                    title: "Prof. ",
                     position: "Associate Head (Research) and Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Human-Centered AI, Data-Driven Interaction, Web Personalization, Recommender Systems, Intelligent User Interfaces",
                     contact: "lichen@comp.hkbu.edu.hk",
@@ -18,9 +18,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "https://www.comp.hkbu.edu.hk/v1/?pic_org=1051",
-                    displayName: "Dr. JIN, Yucheng",
+                    displayName: "JIN, Yucheng",
                     cnName: "金昱成博士",
-                    title: "",
+                    title: "Dr. ",
                     position: "Research Assistant Professor<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "User Interaction with AI systems, Human Design Creativity through AI Technologies",
                     contact: "yuchengjin@comp.hkbu.edu.hk",
@@ -29,9 +29,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/Jiangtonglin.jpg",
-                    displayName: "Dr. JIANG, Tonglin",
+                    displayName: "JIANG, Tonglin",
                     cnName: "姜佟琳博士",
-                    title: "",
+                    title: "Dr. ",
                     position: "Tenure-track Assistant Professor<br>School of Psychological and Cognitive Sciences<br>Peking University",
                     interests: "Health Psychology for Mental Well-Being, especially Self-Concepts, Nostalgia, and Meaningful Existence",
                     contact: "tljiang@pku.edu.cn",
@@ -40,9 +40,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/Daniel.jpg",
-                    displayName: "Prof. LAI W. L., Daniel",
+                    displayName: "LAI W. L., Daniel",
                     cnName: "黎永亮教授",
-                    title: "",
+                    title: "Prof. ",
                     position: "Dean of Faculty of Social Sciences<br>Chair Professor of Social Work<br>Faculty of Social Sciences<br>Hong Kong Baptist University",
                     interests: "Social work and Gerontology, Health and Aging, Culture and Immigration, and Outcome Evaluation",
                     contact: "daniel_lai@hkbu.edu.hk",
@@ -51,9 +51,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/ZHANGXinzhi.jpg",
-                    displayName: "Dr. ZHANG, Xinzhi",
+                    displayName: "ZHANG, Xinzhi",
                     cnName: "張昕之博士",
-                    title: "",
+                    title: "Dr. ",
                     position: "Associate Professor<br>Department of Interactive Media<br>School of Communication<br>Hong Kong Baptist University",
                     interests: "Digital Public Health Campaigns, and Computational Social Science",
                     contact: "xzzhang2@gmail.com",
@@ -62,9 +62,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/wanlingcai_dublin.jpg",
-                    displayName: "Dr. CAI, Wanling",
+                    displayName: "CAI, Wanling",
                     cnName: "蔡婉鈴博士",
-                    title: "",
+                    title: "Dr. ",
                     position: "Postdoctoral researcher<br>School of Computer Science and Statistics<br>Trinity College Dublin (TCD)",
                     interests: "Human-AI Interaction, Technology for Health and Well-being, Usable Security and Privacy, Recommender Systems",
                     contact: "-",
@@ -73,9 +73,9 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/YUSinan.jpg",
-                    displayName: "Mrs. YU, Sinan",
+                    displayName: "YU, Sinan",
                     cnName: "余思南女士",
-                    title: "",
+                    title: "Mrs. ",
                     position: "Ph.D. student<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Human-Computer Interaction, Art Design Psychology, Music Therapy",
                     contact: "sinanyu@life.hkbu.edu.hk",
@@ -84,16 +84,21 @@ export const membersData = reactive({
                 },
                 {
                     photo: "https://www.comp.hkbu.edu.hk/~lichen/images/Yizhe_Zhang.jpg",
-                    displayName: "Mr. ZHANG, Yizhe",
+                    displayName: "ZHANG, Yizhe",
                     cnName: "張藝哲先生",
-                    title: "",
+                    title: "Mr. ",
                     position: "Senior Research Assistant<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Recommender Systems, Human-Computer Interaction, Software Engineering",
                     contact: "csyzzhang@comp.hkbu.edu.hk",
                     website: "https://elecoxy.com",
                     location: "Hong Kong SAR, China",
                 }
-            ]
+            ].sort((a, b) => {
+                const nameA = a.displayName; // ignore upper and lowercase
+                const nameB = b.displayName; // ignore upper and lowercase
+
+                return nameA > nameB;
+            })
         },
         {
             title: "Students",

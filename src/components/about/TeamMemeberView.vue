@@ -8,8 +8,11 @@
         <!--          </figure>-->
         <!--        </div>-->
         <div class="column">
-          <div class="content is-medium about-description">
+          <div class="content is-medium about-description" style="color: white">
             <h1 class="title is-2" style="color: white">Team Members</h1>
+            <small>
+              *In alphabetical order
+            </small>
             <!--            <h2 class="subtitle is-3" style="color: white">A Creative Team</h2>-->
             <!--            <p class="" style="color: white">-->
             <!--              As a group with diverse backgrounds in artificial intelligence, recommender systems, human-computer interaction, software engineering, etc., we work in various fields such as chatbots, education, mental health, recommender systems, etc.-->
@@ -34,8 +37,11 @@
     <div class="container is-max-widescreen">
       <div class="columns is-vcentered">
         <div class="column">
-          <div class="content is-medium about-description">
+          <div class="content is-medium about-description" style="color: white">
             <h1 class="title is-2" style="color: white">Collaborating Organizations</h1>
+            <small>
+              *In alphabetical order
+            </small>
           </div>
         </div>
       </div>

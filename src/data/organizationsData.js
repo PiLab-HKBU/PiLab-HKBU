@@ -23,5 +23,24 @@ export const organizationsData = reactive({
             website: "https://wse.hk/",
             location: "Hong Kong SAR, China",
         },
-    ]
+        {
+            photo: "/img/organizations/HKFEW_TECHED_CENTRE.png",
+            displayName: "Hong Kong Federation of Education Workers",
+            cnName: "香港教育工作者聯會",
+            website: "https://hkfew.org.hk/",
+            location: "Hong Kong SAR, China",
+        },
+        {
+            photo: "/img/organizations/mandarin.edu.hk.jpg",
+            displayName: "Xianggang Putonghua Yanxishe",
+            cnName: "香港普通話研習社",
+            website: "https://www.mandarin.edu.hk/",
+            location: "Hong Kong SAR, China",
+        },
+    ].sort((a, b) => {
+        const nameA = a.displayName.toUpperCase(); // ignore upper and lowercase
+        const nameB = b.displayName.toUpperCase(); // ignore upper and lowercase
+
+        return nameA > nameB;
+    })
 })

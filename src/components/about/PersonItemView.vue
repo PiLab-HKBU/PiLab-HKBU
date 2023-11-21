@@ -10,9 +10,8 @@
     <div class="card-content p-4">
       <div class="media mb-2">
         <div class="media-content">
-          <p class="title is-4">{{ person.displayName }}</p>
+          <p class="title is-4">{{ person.title }}{{ person.displayName }}</p>
           <p class="subtitle is-6 mb-0">{{ person.cnName }}</p>
-          <p class="subtitle is-6">{{ person.title }}</p>
         </div>
       </div>
 
