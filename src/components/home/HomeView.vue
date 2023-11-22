@@ -26,13 +26,13 @@
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
-              <img src="@/assets/img/home/fourSmallImgs/Office-management-rafiki.png" alt="Small Photo">
+              <img src="@/assets/img/home/fourSmallImgs/Chatbot-rafiki.png" alt="Small Photo">
             </figure>
             <h5 class="subtitle is-5" style="width: 100%; text-align: center">Conversational AI</h5>
           </div>
           <div class="column is-3 is-text-center">
             <figure class="image">
-              <img src="@/assets/img/home/fourSmallImgs/Lo-fi-concept-rafiki.png" alt="Small Photo">
+              <img class="p-5" src="@/assets/img/home/fourSmallImgs/Chatbot-pana.png" alt="Small Photo">
             </figure>
             <h5 class="subtitle is-5" style="width: 100%; text-align: center">Explainable AI</h5>
           </div>
