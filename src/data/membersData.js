@@ -119,7 +119,7 @@ export const membersData = reactive({
                 const nameA = a.displayName; // ignore upper and lowercase
                 const nameB = b.displayName; // ignore upper and lowercase
 
-                return nameA > nameB;
+                return nameA > nameB ? 1 : -1;
             })
         },
         {
