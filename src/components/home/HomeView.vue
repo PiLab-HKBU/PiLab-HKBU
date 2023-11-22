@@ -18,36 +18,6 @@
     <div class="hero-body">
       <div class="container is-max-widescreen">
         <div class="columns">
-          <div class="column is-full">
-            <p class="pb-3">
-              By leveraging the power of advanced AI technologies, our research activities primarily focus on finding
-              novel ways to promote human well-being, with a particular emphasis on education and mental health. We
-              strive to revolutionize these areas by harnessing the potential of AI to deliver effective and impactful
-              solutions.
-            </p>
-            <p class="pb-3">
-              In our pursuit of developing AI-powered applications, we place great importance on empirical evidence. We
-              aim to create applications that have been rigorously tested and scientifically proven to be effective. By
-              relying on sound research methodologies and data-driven insights, we ensure that our applications are not
-              only innovative but also reliable and trustworthy.
-            </p>
-            <p class="pb-3">
-              Furthermore, we believe in the importance of inclusivity and accessibility. Our goal is to develop
-              applications that can serve a wide range of users, including the general population and specific groups
-              with unique needs. To achieve this, we actively collaborate with different organizations, such as
-              educational institutions, healthcare providers, and community groups, to understand the specific
-              requirements of diverse user groups and tailor our applications accordingly.
-            </p>
-            <p class="pb-3">
-              Ultimately, our team is driven by the desire to make a positive impact on society. We are dedicated to
-              pushing the boundaries of AI technology to create human-centered applications that improve the well-being
-              of individuals and contribute to the betterment of communities. Through our interdisciplinary approach,
-              commitment to empirical evidence, and collaborative partnerships, we strive to deliver meaningful and
-              transformative AI-powered solutions that address real-world challenges.
-            </p>
-          </div>
-        </div>
-        <div class="columns">
           <div class="column is-3 is-text-center">
             <figure class="image">
               <img src="@/assets/img/home/fourSmallImgs/Personal-data-pana.png" style="padding: 20px" alt="Small Photo">
@@ -72,6 +42,19 @@
                    alt="Small Photo">
             </figure>
             <h5 class="subtitle is-5" style="width: 100%; text-align: center">Personalized Recommender Systems</h5>
+          </div>
+        </div>
+        <div class="columns mt-3">
+          <div class="column is-full">
+            <p class="pb-3">
+              By leveraging the power of advanced AI technologies, our research activities primarily focus on finding novel ways to promote human well-being, with a particular emphasis on education and mental health. We strive to revolutionize these areas by harnessing the potential of AI to deliver effective and impactful solutions.
+            </p>
+            <p class="pb-3">
+              In our pursuit of developing AI-powered applications, we place great importance on empirical evidence. We aim to create applications that have been rigorously tested and scientifically proven to be effective. By relying on sound research methodologies and data-driven insights, we ensure that our applications are not only innovative but also reliable and trustworthy.
+            </p>
+            <p class="pb-3">
+              We believe in the importance of inclusivity and accessibility. Our goal is to develop applications that can serve a wide range of users, including the general population and specific groups with unique needs. To achieve this, we actively collaborate with different organizations, such as educational institutions, healthcare providers, and community groups, to understand the specific requirements of diverse user groups and tailor our applications accordingly.
+            </p>
           </div>
         </div>
       </div>
@@ -107,7 +90,7 @@ export default {
   data() {
     return {
       projectsData,
-      teamDescription: "Our team is committed to conducting cutting-edge interdisciplinary research aimed at developing innovative and personalized AI applications that prioritize human well-being. We firmly believe that by combining the expertise of team members from diverse fields, including computer science, social sciences, creative arts, education, and psychological and cognitive sciences, we can create AI solutions that truly understand and cater to the unique needs of individuals.",
+      teamDescription: "Our team is committed to conducting cutting-edge interdisciplinary research aimed at developing innovative and personalized AI applications that prioritize human well-being. We firmly believe that by combining the expertise of team members from diverse fields, including computer science, social sciences, creative arts, education, and cognitive sciences, we can create AI solutions that truly understand and cater to the unique needs of individuals.",
     }
   },
   methods: {
