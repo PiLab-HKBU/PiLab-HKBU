@@ -39,9 +39,6 @@
         <div class="column">
           <div class="content is-medium about-description" style="color: white">
             <h1 class="title is-2" style="color: white">Collaborating Organizations</h1>
-            <small>
-              *In alphabetical order
-            </small>
           </div>
         </div>
       </div>

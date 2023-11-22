@@ -30,17 +30,12 @@ export const organizationsData = reactive({
             website: "https://hkfew.org.hk/",
             location: "Hong Kong SAR, China",
         },
-        {
-            photo: "/img/organizations/mandarin.edu.hk.jpg",
-            displayName: "Xianggang Putonghua Yanxishe",
-            cnName: "香港普通話研習社",
-            website: "https://www.mandarin.edu.hk/",
-            location: "Hong Kong SAR, China",
-        },
-    ].sort((a, b) => {
-        const nameA = a.displayName.toUpperCase(); // ignore upper and lowercase
-        const nameB = b.displayName.toUpperCase(); // ignore upper and lowercase
-
-        return nameA > nameB;
-    })
+        // {
+        //     photo: "/img/organizations/mandarin.edu.hk.jpg",
+        //     displayName: "Xianggang Putonghua Yanxishe",
+        //     cnName: "香港普通話研習社",
+        //     website: "https://www.mandarin.edu.hk/",
+        //     location: "Hong Kong SAR, China",
+        // },
+    ]
 })

@@ -92,6 +92,28 @@ export const membersData = reactive({
                     contact: "csyzzhang@comp.hkbu.edu.hk",
                     website: "https://elecoxy.com",
                     location: "Hong Kong SAR, China",
+                },
+                {
+                    photo: "/img/members/wenfang_liang.jpg",
+                    displayName: "LEUNG, Manfong",
+                    cnName: "梁文芳博士",
+                    title: "Dr. ",
+                    position: "Section Head of Putonghua and Senior Lecturer<br>Language Centre",
+                    interests: "語言評估、漢語作為第二語言教學",
+                    contact: "mfleung@hkbu.edu.hk",
+                    website: "https://artsbu.hkbu.edu.hk/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
+                    location: "Hong Kong SAR, China",
+                },
+                {
+                    photo: "/img/members/jing_jin.jpg",
+                    displayName: "JIN, Jing",
+                    cnName: "金晶博士",
+                    title: "Dr. ",
+                    position: "Head, Centre for Language in Education (CLE)",
+                    interests: "Chinese linguistics<br>syntax-semantics interface<br>syntax-pragmatics interface<br>formal approach to language acquisition",
+                    contact: "jjin@eduhk.hk",
+                    website: "https://pappl.eduhk.hk/rich/web/person.xhtml?pid=163248&name=JIN-Jing",
+                    location: "Hong Kong SAR, China",
                 }
             ].sort((a, b) => {
                 const nameA = a.displayName; // ignore upper and lowercase
