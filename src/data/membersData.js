@@ -76,7 +76,7 @@ export const membersData = reactive({
                     displayName: "CAI, Wanling",
                     cnName: "蔡婉鈴博士",
                     title: "Dr. ",
-                    position: "Postdoctoral researcher<br>School of Computer Science and Statistics<br>Trinity College Dublin (TCD)",
+                    position: "Postdoctoral Researcher<br>School of Computer Science and Statistics<br>Trinity College Dublin (TCD)",
                     interests: "Human-AI Interaction, Technology for Health and Well-being, Usable Security and Privacy, Recommender Systems",
                     contact: "-",
                     website: "https://wanlingcai.github.io/",
