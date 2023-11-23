@@ -15,7 +15,7 @@
     </div>
   </section>
   <section class="hero">
-    <div class="hero-body">
+    <div class="hero-body pb-3">
       <div class="container is-max-widescreen">
         <div class="columns">
           <div class="column is-3 is-text-center">
@@ -45,14 +45,14 @@
           </div>
         </div>
         <div class="columns mt-3">
-          <div class="column is-full">
+          <div class="column is-full" style="font-size: 1.2rem">
             <p class="pb-3">
               By leveraging the power of advanced AI technologies, our research activities primarily focus on finding novel ways to promote human well-being, with a particular emphasis on education and mental health. We strive to revolutionize these areas by harnessing the potential of AI to deliver effective and impactful solutions.
             </p>
             <p class="pb-3">
               In our pursuit of developing AI-powered applications, we place great importance on empirical evidence. We aim to create applications that have been rigorously tested and scientifically proven to be effective. By relying on sound research methodologies and data-driven insights, we ensure that our applications are not only innovative but also reliable and trustworthy.
             </p>
-            <p class="pb-3">
+            <p>
               We believe in the importance of inclusivity and accessibility. Our goal is to develop applications that can serve a wide range of users, including the general population and specific groups with unique needs. To achieve this, we actively collaborate with different organizations, such as educational institutions, healthcare providers, and community groups, to understand the specific requirements of diverse user groups and tailor our applications accordingly.
             </p>
           </div>

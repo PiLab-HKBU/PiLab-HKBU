@@ -28,17 +28,6 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
-                    photo: "/img/members/Jiangtonglin.jpg",
-                    displayName: "JIANG, Tonglin",
-                    cnName: "姜佟琳博士",
-                    title: "Dr. ",
-                    position: "Tenure-track Assistant Professor<br>School of Psychological and Cognitive Sciences<br>Peking University",
-                    interests: "Health Psychology for Mental Well-Being, especially Self-Concepts, Nostalgia, and Meaningful Existence",
-                    contact: "tljiang@pku.edu.cn",
-                    website: "http://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/jtl/index.htm",
-                    location: "Beijing, China",
-                },
-                {
                     photo: "/img/members/Daniel.jpg",
                     displayName: "LAI W. L., Daniel",
                     cnName: "黎永亮教授",
@@ -61,6 +50,28 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
+                    photo: "/img/members/wenfang_liang.jpg",
+                    displayName: "LEUNG, Manfong",
+                    cnName: "梁文芳博士",
+                    title: "Dr. ",
+                    position: "普通話培訓測試中心主任<br>高級講師<br>語文中心<br>香港浸會大學",
+                    interests: "語言評估, 漢語作為第二語言教學",
+                    contact: "mfleung@hkbu.edu.hk",
+                    website: "https://artsbu.hkbu.edu.hk/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
+                    location: "Hong Kong SAR, China",
+                },
+                {
+                    photo: "/img/members/Jiangtonglin.jpg",
+                    displayName: "JIANG, Tonglin",
+                    cnName: "姜佟琳博士",
+                    title: "Dr. ",
+                    position: "Tenure-track Assistant Professor<br>School of Psychological and Cognitive Sciences<br>Peking University",
+                    interests: "Health Psychology for Mental Well-Being, especially Self-Concepts, Nostalgia, and Meaningful Existence",
+                    contact: "tljiang@pku.edu.cn",
+                    website: "http://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/jtl/index.htm",
+                    location: "Beijing, China",
+                },
+                {
                     photo: "/img/members/wanlingcai_dublin.jpg",
                     displayName: "CAI, Wanling",
                     cnName: "蔡婉鈴博士",
@@ -72,14 +83,14 @@ export const membersData = reactive({
                     location: "Dublin, Ireland",
                 },
                 {
-                    photo: "/img/members/YUSinan.jpg",
-                    displayName: "YU, Sinan",
-                    cnName: "余思南女士",
-                    title: "Mrs. ",
-                    position: "Ph.D. student<br>Department of Computer Science<br>Hong Kong Baptist University",
-                    interests: "Human-Computer Interaction, Art Design Psychology, Music Therapy",
-                    contact: "sinanyu@life.hkbu.edu.hk",
-                    website: "https://github.com/Yusi-sinanyu",
+                    photo: "/img/members/jing_jin.jpg",
+                    displayName: "JIN, Jing",
+                    cnName: "金晶博士",
+                    title: "Dr. ",
+                    position: "副教授<br>語言教育中心主任<br>中國語言學系<br>香港教育大學",
+                    interests: "Chinese linguistics, Syntax-semantics interface, Syntax-pragmatics interface, and Formal approach to language acquisition",
+                    contact: "jjin@eduhk.hk",
+                    website: "https://pappl.eduhk.hk/rich/web/person.xhtml?pid=163248&name=JIN-Jing",
                     location: "Hong Kong SAR, China",
                 },
                 {
@@ -94,33 +105,23 @@ export const membersData = reactive({
                     location: "Hong Kong SAR, China",
                 },
                 {
-                    photo: "/img/members/wenfang_liang.jpg",
-                    displayName: "LEUNG, Manfong",
-                    cnName: "梁文芳博士",
-                    title: "Dr. ",
-                    position: "普通話培訓測試中心主任<br>高級講師<br>語文中心<br>香港浸會大學",
-                    interests: "語言評估, 漢語作為第二語言教學",
-                    contact: "mfleung@hkbu.edu.hk",
-                    website: "https://artsbu.hkbu.edu.hk/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
+                    photo: "/img/members/YUSinan.jpg",
+                    displayName: "YU, Sinan",
+                    cnName: "余思南女士",
+                    title: "Mrs. ",
+                    position: "Ph.D. student<br>Department of Computer Science<br>Hong Kong Baptist University",
+                    interests: "Human-Computer Interaction, Art Design Psychology, Music Therapy",
+                    contact: "sinanyu@life.hkbu.edu.hk",
+                    website: "https://github.com/Yusi-sinanyu",
                     location: "Hong Kong SAR, China",
                 },
-                {
-                    photo: "/img/members/jing_jin.jpg",
-                    displayName: "JIN, Jing",
-                    cnName: "金晶博士",
-                    title: "Dr. ",
-                    position: "副教授<br>語言教育中心主任<br>中國語言學系<br>香港教育大學",
-                    interests: "Chinese linguistics, Syntax-semantics interface, Syntax-pragmatics interface, and Formal approach to language acquisition",
-                    contact: "jjin@eduhk.hk",
-                    website: "https://pappl.eduhk.hk/rich/web/person.xhtml?pid=163248&name=JIN-Jing",
-                    location: "Hong Kong SAR, China",
-                }
-            ].sort((a, b) => {
-                const nameA = a.displayName; // ignore upper and lowercase
-                const nameB = b.displayName; // ignore upper and lowercase
-
-                return nameA > nameB ? 1 : -1;
-            })
+            ]
+            //     .sort((a, b) => {
+            //     const nameA = a.displayName; // ignore upper and lowercase
+            //     const nameB = b.displayName; // ignore upper and lowercase
+            //
+            //     return nameA > nameB ? 1 : -1;
+            // })
         },
         {
             title: "Students",

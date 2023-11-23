@@ -25,7 +25,7 @@ export const organizationsData = reactive({
         },
         {
             photo: "/img/organizations/HKFEW_TECHED_CENTRE.png",
-            displayName: "Hong Kong Federation of Education Workers, TechEd Centre",
+            displayName: "Hong Kong Federation of Education Workers TechEd Centre",
             cnName: "香港教育工作者聯會創科教育中心",
             website: "https://hkfew.org.hk/",
             location: "Hong Kong SAR, China",
