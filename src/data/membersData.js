@@ -43,7 +43,7 @@ export const membersData = reactive({
                     displayName: "ZHANG, Xinzhi",
                     cnName: "張昕之博士",
                     title: "Dr. ",
-                    position: "Associate Professor<br>Department of Interactive Media<br>School of Communication<br>Hong Kong Baptist University",
+                    position: "Associate Professor<br>Department of Media and Communication<br>City University of Hong Kong",
                     interests: "Digital Public Health Campaigns, and Computational Social Science",
                     contact: "xzzhang2@gmail.com",
                     website: "https://drxinzhizhang.com/",
