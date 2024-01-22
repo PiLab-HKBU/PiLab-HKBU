@@ -95,7 +95,7 @@ export const membersData = reactive({
                 },
                 {
                     photo: "/img/members/leili.jpg",
-                    displayName: "Li, Lei",
+                    displayName: "LI, Lei",
                     cnName: "李磊博士",
                     title: "Dr. ",
                     position: "Post-doctoral Research Fellow<br>Department of Computer Science<br>Hong Kong Baptist University",
