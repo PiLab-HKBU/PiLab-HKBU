@@ -7,7 +7,7 @@ import { store } from "@/data/store";
     <div class="container is-max-widescreen">
       <div class="content has-text-centered">
         <p>
-          Copyright © 2023 <a href="/"><strong>PI Lab</strong></a>. All Rights Reserved.
+          Copyright © 2024 <a href="/"><strong>PI Lab</strong></a>. All Rights Reserved.
         </p>
         <p>
           <a href="https://bupdpo.hkbu.edu.hk/policies-and-procedures/pps-pics/" target="_blank">Privacy Policy</a> |
