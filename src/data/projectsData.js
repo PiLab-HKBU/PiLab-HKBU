@@ -20,7 +20,7 @@ export const projectsData = reactive({
                 "The research offers design considerations for HCI practitioners to improve generative AI applications for supporting older adults in music reminiscence activities.",
             ],
             "reference": [
-                "Yucheng Jin, Wanling Cai, Li Chen, Yizhe Zhang, Gavin Doherty, and Tonglin Jiang. 2024. Exploring the Design of Generative AI in Supporting Music-based Reminiscence for Older Adults. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, New York, NY, USA, 17 pages. <a href='https://doi.org/10.1145/3613904.3642800' target='_blank'>https://doi.org/10.1145/3613904.3642800</a> "
+                "Yucheng Jin, Wanling Cai, Li Chen, Yizhe Zhang, Gavin Doherty, and Tonglin Jiang. 2024. Exploring the Design of Generative AI in Supporting Music-based Reminiscence for Older Adults. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, New York, NY, USA, 17 pages. <a href='https://doi.org/10.1145/3613904.3642800' target='_blank'>https://doi.org/10.1145/3613904.3642800</a>"
             ],
             "video": "https://www.youtube.com/embed/GQYKyMuqEfA",
         },
