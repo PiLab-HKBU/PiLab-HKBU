@@ -4,6 +4,29 @@ export const projectsData = reactive({
     list: [
         {
             "id": 1,
+            "photo": "/img/projects/music-based-reminiscence.png",
+            "photos": [],
+            "shortTitle": "Music-based Reminiscence",
+            "title": "Exploring the Design of Generative AI in Supporting Music-based Reminiscence for Older Adults",
+            "subtitle": "",
+            "author": "Dr. JIN, Yucheng, Dr. CAI, Wanling, Prof. CHEN, Li, Mr. ZHANG, Yizhe, Prof. Gavin Doherty, and Dr. JIANG, Tonglin",
+            "collaborator": "",
+            "description": "The purpose of this study is to gain a profound understanding of the elderly individuals' attitudes towards utilizing generative artificial intelligence to support music-based reminiscence. Additionally, it aims to identify specific design considerations for future generative artificial intelligence, in order to enhance the reminiscence experience of the elderly.",
+            "descriptionRest": "",
+            "majorFundings": [],
+            "features": [
+                "The study investigates the potential impact of generative AI on enhancing music-based reminiscence for older adults' mental well-being.",
+                "Older adults participating in the workshops valued the AI's ability to trigger detailed and diverse memories but desired more control and personalization.",
+                "The research offers design considerations for HCI practitioners to improve generative AI applications for supporting older adults in music reminiscence activities.",
+            ],
+            "reference": [
+                "Yucheng Jin, Wanling Cai, Li Chen, Yizhe Zhang, Gavin Doherty, and Tonglin Jiang. 2024. Exploring the Design of Generative AI in Supporting Music- based Reminiscence for Older Adults. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Hon- olulu, HI, USA. ACM, New York, NY, USA, 17 pages. <a href='https://doi.org/10.1145/3613904.3642800' target='_blank'>https://doi.org/10.1145/3613904.3642800</a>"
+            ],
+            "video": "https://www.youtube.com/embed/GQYKyMuqEfA",
+        },
+
+        {
+            "id": 2,
             "photo": "/img/projects/SunnyBot.png",
             "photos": [],
             "shortTitle": "SunnyBot",
@@ -25,7 +48,7 @@ export const projectsData = reactive({
             "video": "https://www.youtube.com/embed/S8sB3t7coi4",
         },
         {
-            "id": 2,
+            "id": 3,
             "photo": "/img/projects/Pistis Health.png",
             "photos": [],
             "shortTitle": "Pistis Health",
@@ -47,7 +70,7 @@ export const projectsData = reactive({
             "video": "https://www.youtube.com/embed/PkhFABofVg0",
         },
         {
-            "id": 3,
+            "id": 4,
             "photo": "/img/projects/PercyBot.png",
             "photos": [],
             "shortTitle": "PercyBot",
@@ -68,7 +91,7 @@ export const projectsData = reactive({
             "video": "https://www.youtube.com/embed/GJufdEYBDZ8",
         },
         {
-            "id": 4,
+            "id": 5,
             "photo": "/img/projects/MusicBot.png",
             "photos": [],
             "shortTitle": "MusicBot",
@@ -90,7 +113,7 @@ export const projectsData = reactive({
             "video": "https://www.youtube.com/embed/MJFyP1Mc_JE",
         },
         {
-            "id": 5,
+            "id": 6,
             "photo": "/img/projects/Understanding Disclosure and Support.png",
             "photos": [
                 {
@@ -121,7 +144,7 @@ export const projectsData = reactive({
             "video": "",
         },
         {
-            "id": 6,
+            "id": 7,
             "photo": "/img/projects/Fact-Checking Chatbot.png",
             "photos": [],
             "shortTitle": "Fact-Checking Chatbot",
@@ -142,7 +165,7 @@ export const projectsData = reactive({
             "video": "https://www.youtube.com/embed/ItcIC7eZiQo",
         },
         {
-            "id": 7,
+            "id": 8,
             "photo": "/img/projects/Wofoo Health Workshop.png",
             "photos": [
                 {
