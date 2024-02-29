@@ -11,12 +11,12 @@ export const projectsData = reactive({
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CAI, Wanling, Prof. CHEN, Li, Mr. ZHANG, Yizhe, Prof. Gavin Doherty, and Dr. JIANG, Tonglin",
             "collaborator": "",
-            "description": "The purpose of this study is to gain a profound understanding of the elderly individuals' attitudes towards utilizing generative artificial intelligence to support music-based reminiscence. Additionally, it aims to identify specific design considerations for future generative artificial intelligence, in order to enhance the reminiscence experience of the elderly.",
+            "description": "The purpose of this study is to gain a profound understanding of the elderly individuals' attitudes towards utilizing generative artificial intelligence to support music-based reminiscence. Additionally, it identifies several concrete design considerations for the future design of generative AI to enhance the reminiscence experience of older adults.",
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
                 "The study investigates the potential impact of generative AI on enhancing music-based reminiscence for older adults' mental well-being.",
-                "Older adults participating in the workshops valued the AI's ability to trigger detailed and diverse memories but desired more control and personalization.",
+                "Older adults participating in the workshops valued the AI's support in arousing more details about memories but desired more user control and personalization in content generation.",
                 "The research offers design considerations for HCI practitioners to improve generative AI applications for supporting older adults in music reminiscence activities.",
             ],
             "reference": [
