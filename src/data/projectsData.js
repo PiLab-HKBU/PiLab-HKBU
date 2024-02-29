@@ -24,96 +24,29 @@ export const projectsData = reactive({
             ],
             "video": "https://www.youtube.com/embed/GQYKyMuqEfA",
         },
-
         {
             "id": 2,
-            "photo": "/img/projects/SunnyBot.png",
+            "photo": "/img/projects/Fact-Checking Chatbot.png",
             "photos": [],
-            "shortTitle": "SunnyBot",
-            "title": "SunnyBot: Design and Implementation of a Music Recommendation Chatbot for Lonely People",
+            "shortTitle": "Fact-Checking Chatbot",
+            "title": "Fact-Checking Chatbot: <br>Comparing Button-Based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information",
             "subtitle": "",
-            "author": "Mr. ZHAO, Xianglin and Dr. CHEN, Li",
+            "author": "Mr. ZHAO, Xianglin, Dr. CHEN, Li, Dr. JIN, Yucheng, and Dr. ZHANG, Xinzhi",
             "collaborator": "",
-            "description": "SunnyBot is a web-based chatbot designed to track users’ daily mood, assess their level of loneliness, and recommend music according to their mood.",
+            "description": "This fact-checking chatbot is designed to communicate health-related fact-checking results to users in a conversation. ",
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "<strong>Mood Diary</strong>: the system allows users to indicate their daily feelings and visualize their mood changes over time.",
-                "<strong>Loneliness Interview</strong>: the system is able to assess users' loneliness status through conversation.",
-                "<strong>Music Recommendation</strong>: the system can recommend music to users according to their current mood.",
+                "<strong>Button-based Interaction</strong>: This chatbot allows users to get fact-checking results about health-related information by tapping a few buttons in a conversation. In comparison with traditional fact-checking webpages, the chatbot can increase users’ perceived ease of use, which in turn increases the correction effectiveness. ",
+                "<strong>Highlighted Expertise Cue</strong>: Our experiment shows that highlighting fact-checkers’ titles and avatars to convey the typical stereotypes of professionals tends to decrease users’ behavioural intentions of fact-checking, especially when interacting with webpages.",
             ],
             "reference": [
-                "ZHAO, X., & CHEN, L. (2021). (rep.). Design and Implementation of a Music Recommendation Chatbot for Lonely People. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf' target='_blank'>Available: https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf</a>"
+                "Zhao, X., Chen, L., Jin, Y., & Zhang, X. (2023). Comparing Button-based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information. Information Processing & Management, 60(2), 103203."
             ],
-            "video": "https://www.youtube.com/embed/S8sB3t7coi4",
+            "video": "https://www.youtube.com/embed/ItcIC7eZiQo",
         },
         {
             "id": 3,
-            "photo": "/img/projects/Pistis Health.png",
-            "photos": [],
-            "shortTitle": "Pistis Health",
-            "title": "Pistis Health: A Centralized Platform for Collecting and Personalizing Information about Mental Health Services to the Public",
-            "subtitle": "",
-            "author": "Mr. ZHANG, Yizhe and Dr. CHEN, Li",
-            "collaborator": "",
-            "description": "Pistis Health is a centralized information recommendation platform. It can  recommend psychological suggestions, articles, and service information to users. ",
-            "descriptionRest": "",
-            "majorFundings": [],
-            "features": [
-                "<strong>Centralized and Integrated Content Collection</strong>: the system can regularly collect and analyse service information and news articles about mental health from different sources, so that it can always provide the newest, up-to-date information.",
-                "<strong>Conversational Assessment</strong>: the system is able to assess users' mental status via an interactive, conversational assessment tool.",
-                "<strong>Automatic Information Recommendation</strong>: the system can automatically recommend articles and information to users according to the detected mental status.",
-            ],
-            "reference": [
-                "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
-            ],
-            "video": "https://www.youtube.com/embed/PkhFABofVg0",
-        },
-        {
-            "id": 4,
-            "photo": "/img/projects/PercyBot.png",
-            "photos": [],
-            "shortTitle": "PercyBot",
-            "title": "PercyBot: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health",
-            "subtitle": "",
-            "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Mr. ZHAO, Xianglin, and Dr. CAI, Wanling",
-            "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
-            "description": "PercyBot is a chatbot designed for young adults who feel lonely.",
-            "descriptionRest": "",
-            "majorFundings": [],
-            "features": [
-                "<strong>Self-Assessment</strong>: PercyBot allows users to assess their feelings of loneliness and get empathetical responses via conversation with the chatbot.",
-                "<strong>Timely Support</strong>: PercyBot cares about user emotions and provides useful mental health information.",
-            ],
-            "reference": [
-                "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2023). The Way You Test Me Matters: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health (to be submitted)"
-            ],
-            "video": "https://www.youtube.com/embed/GJufdEYBDZ8",
-        },
-        {
-            "id": 5,
-            "photo": "/img/projects/MusicBot.png",
-            "photos": [],
-            "shortTitle": "MusicBot",
-            "title": "\"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music",
-            "subtitle": "",
-            "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
-            "collaborator": "",
-            "description": "This music chatbot can guide users to become self-aware and express their thoughts when they listen to music.",
-            "descriptionRest": "",
-            "majorFundings": [],
-            "features": [
-                "<strong>Emotion-based Music Recommendation</strong>: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
-                "<strong>Proactive Guidance</strong>:  The chatbot can proactivity guide users to follow the suggestions to express their thoughts, understand themselves better, and increase their self-awareness during listening to music.",
-                "<strong>Social Information</strong>: The chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
-            ],
-            "reference": [
-                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
-            ],
-            "video": "https://www.youtube.com/embed/MJFyP1Mc_JE",
-        },
-        {
-            "id": 6,
             "photo": "/img/projects/Understanding Disclosure and Support.png",
             "photos": [
                 {
@@ -144,28 +77,50 @@ export const projectsData = reactive({
             "video": "",
         },
         {
-            "id": 7,
-            "photo": "/img/projects/Fact-Checking Chatbot.png",
+            "id": 4,
+            "photo": "/img/projects/MusicBot.png",
             "photos": [],
-            "shortTitle": "Fact-Checking Chatbot",
-            "title": "Fact-Checking Chatbot: <br>Comparing Button-Based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information",
+            "shortTitle": "MusicBot",
+            "title": "\"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music",
             "subtitle": "",
-            "author": "Mr. ZHAO, Xianglin, Dr. CHEN, Li, Dr. JIN, Yucheng, and Dr. ZHANG, Xinzhi",
+            "author": "Dr. CAI, Wanling, Dr. JIN, Yucheng, Mr. ZHAO, Xianglin, and Dr. CHEN, Li",
             "collaborator": "",
-            "description": "This fact-checking chatbot is designed to communicate health-related fact-checking results to users in a conversation. ",
+            "description": "This music chatbot can guide users to become self-aware and express their thoughts when they listen to music.",
             "descriptionRest": "",
             "majorFundings": [],
             "features": [
-                "<strong>Button-based Interaction</strong>: This chatbot allows users to get fact-checking results about health-related information by tapping a few buttons in a conversation. In comparison with traditional fact-checking webpages, the chatbot can increase users’ perceived ease of use, which in turn increases the correction effectiveness. ",
-                "<strong>Highlighted Expertise Cue</strong>: Our experiment shows that highlighting fact-checkers’ titles and avatars to convey the typical stereotypes of professionals tends to decrease users’ behavioural intentions of fact-checking, especially when interacting with webpages.",
+                "<strong>Emotion-based Music Recommendation</strong>: The music chatbot can recommend music based on users’ current emotions to resonate with them and awaken their inner feelings and thoughts.",
+                "<strong>Proactive Guidance</strong>:  The chatbot can proactivity guide users to follow the suggestions to express their thoughts, understand themselves better, and increase their self-awareness during listening to music.",
+                "<strong>Social Information</strong>: The chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
-                "Zhao, X., Chen, L., Jin, Y., & Zhang, X. (2023). Comparing Button-based Chatbots with Webpages for Presenting Fact-Checking Results: A Case Study of Health Information. Information Processing & Management, 60(2), 103203."
+                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
             ],
-            "video": "https://www.youtube.com/embed/ItcIC7eZiQo",
+            "video": "https://www.youtube.com/embed/MJFyP1Mc_JE",
         },
         {
-            "id": 8,
+            "id": 5,
+            "photo": "/img/projects/PercyBot.png",
+            "photos": [],
+            "shortTitle": "PercyBot",
+            "title": "PercyBot: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health",
+            "subtitle": "",
+            "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Mr. ZHAO, Xianglin, and Dr. CAI, Wanling",
+            "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
+            "description": "PercyBot is a chatbot designed for young adults who feel lonely.",
+            "descriptionRest": "",
+            "majorFundings": [],
+            "features": [
+                "<strong>Self-Assessment</strong>: PercyBot allows users to assess their feelings of loneliness and get empathetical responses via conversation with the chatbot.",
+                "<strong>Timely Support</strong>: PercyBot cares about user emotions and provides useful mental health information.",
+            ],
+            "reference": [
+                "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2023). The Way You Test Me Matters: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health (to be submitted)"
+            ],
+            "video": "https://www.youtube.com/embed/GJufdEYBDZ8",
+        },
+        {
+            "id": 6,
             "photo": "/img/projects/Wofoo Health Workshop.png",
             "photos": [
                 {
@@ -192,6 +147,50 @@ export const projectsData = reactive({
             "features": [],
             "reference": [],
             "video": "",
-        }
+        },
+        {
+            "id": 7,
+            "photo": "/img/projects/Pistis Health.png",
+            "photos": [],
+            "shortTitle": "Pistis Health",
+            "title": "Pistis Health: A Centralized Platform for Collecting and Personalizing Information about Mental Health Services to the Public",
+            "subtitle": "",
+            "author": "Mr. ZHANG, Yizhe and Dr. CHEN, Li",
+            "collaborator": "",
+            "description": "Pistis Health is a centralized information recommendation platform. It can  recommend psychological suggestions, articles, and service information to users. ",
+            "descriptionRest": "",
+            "majorFundings": [],
+            "features": [
+                "<strong>Centralized and Integrated Content Collection</strong>: the system can regularly collect and analyse service information and news articles about mental health from different sources, so that it can always provide the newest, up-to-date information.",
+                "<strong>Conversational Assessment</strong>: the system is able to assess users' mental status via an interactive, conversational assessment tool.",
+                "<strong>Automatic Information Recommendation</strong>: the system can automatically recommend articles and information to users according to the detected mental status.",
+            ],
+            "reference": [
+                "ZHANG, Y., & CHEN, L. (2022). (rep.). A Mental Health Dialogue System. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf' target='_blank'>Available: https://elecoxy.com/papers/MSc_Practicum_Report_Yizhe_ZHANG.pdf</a>"
+            ],
+            "video": "https://www.youtube.com/embed/PkhFABofVg0",
+        },
+        {
+            "id": 8,
+            "photo": "/img/projects/SunnyBot.png",
+            "photos": [],
+            "shortTitle": "SunnyBot",
+            "title": "SunnyBot: Design and Implementation of a Music Recommendation Chatbot for Lonely People",
+            "subtitle": "",
+            "author": "Mr. ZHAO, Xianglin and Dr. CHEN, Li",
+            "collaborator": "",
+            "description": "SunnyBot is a web-based chatbot designed to track users’ daily mood, assess their level of loneliness, and recommend music according to their mood.",
+            "descriptionRest": "",
+            "majorFundings": [],
+            "features": [
+                "<strong>Mood Diary</strong>: the system allows users to indicate their daily feelings and visualize their mood changes over time.",
+                "<strong>Loneliness Interview</strong>: the system is able to assess users' loneliness status through conversation.",
+                "<strong>Music Recommendation</strong>: the system can recommend music to users according to their current mood.",
+            ],
+            "reference": [
+                "ZHAO, X., & CHEN, L. (2021). (rep.). Design and Implementation of a Music Recommendation Chatbot for Lonely People. M.Sc. Practicum Report, Hong Kong Baptist University.<br> <a href='https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf' target='_blank'>Available: https://zhaoxianglin.github.io/Files/MSc_Parcticium_Report_Xianglin_ZHAO.pdf</a>"
+            ],
+            "video": "https://www.youtube.com/embed/S8sB3t7coi4",
+        },
     ]
 })
