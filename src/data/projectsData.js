@@ -42,7 +42,7 @@ export const projectsData = reactive({
                 "The research offers design considerations for HCI practitioners to improve generative AI applications for supporting older adults in music reminiscence activities.",
             ],
             "reference": [
-                "Yucheng Jin, Wanling Cai, Li Chen, Yizhe Zhang, Gavin Doherty, and Tonglin Jiang. 2024. Exploring the Design of Generative AI in Supporting Music-based Reminiscence for Older Adults. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, New York, NY, USA, 17 pages. <a href='https://doi.org/10.1145/3613904.3642800' target='_blank'>https://doi.org/10.1145/3613904.3642800</a>"
+                "Jin, Y., Cai, W., Chen, L., Zhang, Y., Doherty, G., & Jiang, T. (2024, May). Exploring the Design of Generative AI in Supporting Music-based Reminiscence for Older Adults. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11, 2024 (Honolulu, HI, USA). <a href='https://doi.org/10.1145/3613904.3642800' target='_blank'>https://doi.org/10.1145/3613904.3642800</a>"
             ],
             "video": "https://www.youtube.com/embed/GQYKyMuqEfA",
         },
@@ -116,7 +116,7 @@ export const projectsData = reactive({
                 "<strong>Social Information</strong>: The chatbot presents relevant music comments that other listeners have posted on the currently playing song. These comments can let users know what others have felt and thought to elicit their own resonance when listening to a song.",
             ],
             "reference": [
-                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany)."
+                "Cai, W., Jin, Y., Zhao, X., & Chen, L. (2023, April). \"Listen to Music, Listen to Yourself\": Design of a Conversational Agent to Support Self-Awareness While Listening to Music. In Proceedings of SIGCHI Conference on Human Factors in Computing Systems (CHI’23), April 23, 2023 (Hamburg, Germany). <a href='https://doi.org/10.1145/3544548.3581427' target='_blank'>https://doi.org/10.1145/3544548.3581427</a>"
             ],
             "video": "https://www.youtube.com/embed/MJFyP1Mc_JE",
         },
