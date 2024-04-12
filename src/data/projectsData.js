@@ -7,7 +7,7 @@ export const projectsData = reactive({
             "photo": "/img/projects/ai-poets.jpg",
             "photos": [
                 {
-                    "img": "/img/projects/ai-poets.jpg",
+                    "img": "/img/projects/ai-poets-2.jpg",
                     "caption": "Fig.1 - UI Interfaces.",
                 },
             ],
