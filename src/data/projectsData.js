@@ -5,9 +5,14 @@ export const projectsData = reactive({
         {
             "id": 9,
             "photo": "/img/projects/ai-poets.jpg",
-            "photos": [],
+            "photos": [
+                {
+                    "img": "/img/projects/ai-poets.jpg",
+                    "caption": "Fig.1 - UI Interfaces.",
+                },
+            ],
             "shortTitle": "AI Poets",
-            "title": "Poetic Proficiency: Harnessing AI in A Learning App for Mastering Classical Chinese Poetry",
+            "title": "Poetic Proficiency: Harnessing AI in a Learning App for Mastering Classical Chinese Poetry",
             "subtitle": "",
             "author": "Prof. CHEN, Li, Mr. ZHANG, Yizhe, Dr. LI, Lei",
             "collaborator": "<strong>Collaborators</strong>: Dr. JIN, Yucheng, Dr. LEUNG, Man Fong, Dr. JIN, Jing",
