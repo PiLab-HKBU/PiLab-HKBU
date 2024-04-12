@@ -6,10 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "css-build": "node-sass --omit-source-map-url sass/baseBulma.scss src/assets/sass/baseBulma.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.4.15",
@@ -18,7 +15,6 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
     "bulma": "^0.9.4",
-    "node-sass": "^9.0.0",
     "vite": "^5.0.12"
   }
 }
