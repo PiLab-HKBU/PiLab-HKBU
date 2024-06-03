@@ -15,6 +15,18 @@
     </div>
   </section>
   <section class="hero">
+    <div class="hero-body pt-3  pb-0">
+      <div class="container is-max-widescreen">
+        <div class="content is-large">
+          <p style="color: red;">
+            We are looking for motivated PhD students (education background in Computer Science, Information Systems, or related majors), Research Assistants, and Research Assistant Professors. If you are interested, please send your CV with an optional research statement to Prof. Li Chen (<a href="mailto:lichen@comp.hkbu.edu.hk" style="color: red; text-decoration: underline;">lichen@comp.hkbu.edu.hk</a>). The shortlisted candidates will be contacted for an interview.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="hero">
     <div class="hero-body pb-3">
       <div class="container is-max-widescreen">
         <div class="columns">
