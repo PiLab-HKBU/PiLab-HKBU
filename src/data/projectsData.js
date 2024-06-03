@@ -130,7 +130,7 @@ export const projectsData = reactive({
             "photo": "/img/projects/PercyBot.png",
             "photos": [],
             "shortTitle": "PercyBot",
-            "title": "PercyBot: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health",
+            "title": "The Way You Assess Matters: User Interaction Design of Survey Chatbots for Mental Health",
             "subtitle": "",
             "author": "Dr. JIN, Yucheng, Dr. CHEN, Li, Mr. ZHAO, Xianglin, and Dr. CAI, Wanling",
             "collaborator": "<strong>Collaborator</strong>: <a href='https://sa.hkbu.edu.hk/cdc' target='_blank'>Counselling and Development Centre, HKBU</a>",
@@ -142,7 +142,7 @@ export const projectsData = reactive({
                 "<strong>Timely Support</strong>: PercyBot cares about user emotions and provides useful mental health information.",
             ],
             "reference": [
-                "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2023). The Way You Test Me Matters: Effects of Psychological Assessment Design on User Response to Open-Ended Questions in a Survey Chatbot for Youth Mental Health (to be submitted)"
+                "Jin, Y., Chen, L., Zhao, X., & Cai, W. (2024). The Way You Assess Matters: User Interaction Design of Survey Chatbots for Mental Health. In International Journal of Human - Computer Studies (IJHCS)."
             ],
             "video": "https://www.youtube.com/embed/GJufdEYBDZ8",
         },
