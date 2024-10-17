@@ -111,8 +111,8 @@ export const membersData = reactive({
                     title: "Mr. ",
                     position: "Senior Research Assistant<br>Department of Computer Science<br>Hong Kong Baptist University",
                     interests: "Recommender Systems, Human-Computer Interaction, Software Engineering",
-                    contact: "csyzzhang@comp.hkbu.edu.hk",
-                    website: "https://elecoxy.com",
+                    contact: "",
+                    website: "",
                     location: "Hong Kong SAR, China",
                 },
                 {
