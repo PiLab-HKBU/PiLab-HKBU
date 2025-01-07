@@ -77,10 +77,11 @@ const navbarBurger = ref(false)
             <!--          <a class="navbar-item">-->
             <!--            Work With Us-->
             <!--          </a>-->
-
+            <!-- 
             <a href="#/blog" target="_blank" :class="['navbar-item']">
               Blog
             </a>
+            -->
 
             <!--          <router-link :to="{ name: 'contact', params: {}}" :class="['navbar-item', currentIndex === 'contact' ? 'is-active' : '']">-->
             <!--            Contact-->
