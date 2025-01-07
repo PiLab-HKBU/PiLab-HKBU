@@ -43,7 +43,7 @@ export const membersData = reactive({
                     displayName: "LAI W. L., Daniel",
                     cnName: "黎永亮教授",
                     title: "Prof. ",
-                    position: "Dean and Chair Professor of Social Work<br>Faculty of Arts and Social Sciences<br>Hong Kong Baptist University",
+                    position: "Dean and Chair Professo<br>Faculty of Arts and Social Sciences<br>Hong Kong Baptist University",
                     interests: "Social work and Gerontology, Health and Aging, Culture and Immigration, and Outcome Evaluation",
                     contact: "daniel_lai@hkbu.edu.hk",
                     website: "https://sowk.hkbu.edu.hk/en/people/academic_staff_detail/35?back=%2Fen%2Fpeople%2F",
